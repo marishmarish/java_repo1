@@ -1,3 +1,5 @@
+package ru.stqa.ptf.sandbox;
+
 public class DistanceBetweenPoints {
     public static void main(String[] args) {
         Point pointFirst = new Point(5, 4);

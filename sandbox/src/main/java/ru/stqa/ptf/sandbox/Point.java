@@ -1,3 +1,5 @@
+package ru.stqa.ptf.sandbox;
+
 public class Point {
     double x;
     double y;
