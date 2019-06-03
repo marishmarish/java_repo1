@@ -19,4 +19,8 @@ public class BaseHelper {
         wd.findElement(locator).clear();
         wd.findElement(locator).sendKeys(text);
     }
+
+    protected void confirmPopUp() {
+        wd.switchTo().alert().accept();
+    }
 }
