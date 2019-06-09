@@ -5,7 +5,7 @@ import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 
 public class BaseHelper {
-    private WebDriver wd;
+    protected WebDriver wd;
 
     public BaseHelper(WebDriver wd) {
         this.wd = wd;
