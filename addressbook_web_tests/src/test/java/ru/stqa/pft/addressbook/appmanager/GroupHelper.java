@@ -28,15 +28,33 @@ public class GroupHelper extends BaseHelper {
         click(By.name("new"));
     }
 
-    public void submitAndUpdate()  {
+    public void submitAndUpdate() {
         click(By.xpath("//input[@name='update']"));
     }
 
-    public void selectGroup() {click(By.xpath("(//input[@name='selected[]'])[1]")); }
+    public void selectGroup() {
+        click(By.xpath("(//input[@name='selected[]'])[1]"));
+    }
 
-    public void editGroup() {click(By.xpath("(//input[@name='edit'])[2]")); }
+    public void editGroup() {
+        click(By.xpath("(//input[@name='edit'])[2]"));
+    }
 
-    public void deleteGroup() {click(By.xpath("(//input[@name='delete'])[2]")); }
+    public void deleteGroup() {
+        click(By.xpath("(//input[@name='delete'])[2]"));
+    }
+
+    public void createGroup(GroupData group) {
+        initGroupCreation();
+        fillGroupForm(group);
+        submitGroupCreation();
+        returnToGroupPage();
+    }
+
+    public boolean isThereAGroup() {
+        return isElementPresent(By.xpath("(//input[@name='selected[]'])[1]"));
+    }
+
 }
 
 

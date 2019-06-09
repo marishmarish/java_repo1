@@ -16,6 +16,9 @@ public class GroupTests extends TestBase{
 
     @Test
     public void testGroupEdition() {
+        if (! app.getGroupHelper().isThereAGroup()) {
+            app.getGroupHelper().createGroup(new GroupData("TestGroup", "LogoGroup", "Comment for the Group"));
+        }
         app.getGroupHelper().selectGroup();
         app.getGroupHelper().editGroup();
         app.getGroupHelper().fillGroupForm(new GroupData("TestGroup1", "LogoGroup2", "Comment for the Group3"));
@@ -24,7 +27,10 @@ public class GroupTests extends TestBase{
     }
 
     @Test
-    public void testContactDeletion() {
+    public void testGroupDeletion() {
+        if (! app.getGroupHelper().isThereAGroup()) {
+            app.getGroupHelper().createGroup(new GroupData("TestGroup", "LogoGroup", "Comment for the Group"));
+        }
         app.getGroupHelper().selectGroup();
         app.getGroupHelper().deleteGroup();
         app.getGroupHelper().returnToGroupPage();

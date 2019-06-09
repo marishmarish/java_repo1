@@ -49,4 +49,14 @@ public class ContactHelper extends BaseHelper {
     public void confirmDelete() {
         confirmPopUp();
     }
+
+    public boolean isThereAContact() {
+        return isElementPresent(By.xpath("(//input[@name='selected[]'])[1]"));
+    }
+
+    public void createContact(ContactData contact) {
+        initContactCreation();
+        fillContactForm(contact);
+        submitContactCreation();
+    }
 }
