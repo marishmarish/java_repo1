@@ -2,7 +2,11 @@ package ru.stqa.pft.addressbook.appmanager;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import ru.stqa.pft.addressbook.model.ContactData;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class ContactHelper extends BaseHelper {
 
@@ -26,8 +30,8 @@ public class ContactHelper extends BaseHelper {
         click(By.linkText("add new"));
     }
 
-    public void initContactEdition() {
-        click(By.xpath("//img[@alt='Edit']"));
+    public void initContactEdition(int index) {
+        click(By.xpath("(//img[@alt='Edit'])["+index+"]"));
     }
 
     public void submitAndUpdate() {
@@ -58,5 +62,24 @@ public class ContactHelper extends BaseHelper {
         initContactCreation();
         fillContactForm(contact);
         submitContactCreation();
+    }
+
+    public List<ContactData> getContactList() {
+        List<ContactData> contacts = new ArrayList<>();
+        List<WebElement> elements = wd.findElements(By.xpath("//tr[@name = 'entry']"));
+        for (WebElement element : elements) {
+            String elementText = element.getText();
+            String[] contactInfo = elementText.split(" ");
+            int id = Integer.parseInt(element.findElement(By.tagName("input")).getAttribute("value"));
+            ContactData contact = new ContactData(id, contactInfo[1], contactInfo[0], contactInfo[2], contactInfo[3]);
+            contacts.add(contact);
+        }
+        return contacts;
+    }
+
+    public void selectContact(int index) {
+        wd.findElements(By.name("selected[]"))
+                .get(index)
+                .click();
     }
 }
