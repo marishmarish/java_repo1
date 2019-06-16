@@ -31,14 +31,14 @@ public class ContactHelper extends BaseHelper {
     }
 
     public void initContactEdition(int index) {
-        click(By.xpath("(//img[@alt='Edit'])["+index+"]"));
+        click(By.xpath("(//img[@alt='Edit'])[" + index + "]"));
     }
 
     public void submitAndUpdate() {
         click(By.xpath("(//input[@name='update'])[2]"));
     }
 
-    public void goHome() {
+    public void homePage() {
         click(By.linkText("home"));
     }
 
@@ -64,7 +64,19 @@ public class ContactHelper extends BaseHelper {
         submitContactCreation();
     }
 
-    public List<ContactData> getContactList() {
+    public void modify(List<ContactData> before, ContactData contact) {
+        initContactEdition(before.size());
+        fillContactForm(contact);
+        submitAndUpdate();
+    }
+
+    public void delete(int index) {
+        selectContact(index);
+        deleteContact();
+        confirmDelete();
+    }
+
+    public List<ContactData> list() {
         List<ContactData> contacts = new ArrayList<>();
         List<WebElement> elements = wd.findElements(By.xpath("//tr[@name = 'entry']"));
         for (WebElement element : elements) {
