@@ -8,7 +8,7 @@ import java.util.List;
 
 public class ContactCreationTests extends TestBase {
 
-    @Test (enabled = false)
+    @Test
     public void testContactCreation() {
         List<ContactData> before = app.contact().list();
         ContactData contact = new ContactData("First", "Name", "1234567890", "first@name.com");

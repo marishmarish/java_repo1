@@ -18,7 +18,7 @@ public class ContactModificationTests extends TestBase {
         }
     }
 
-    @Test (enabled = false)
+    @Test
     public void testContactEdition() {
         List<ContactData> before = app.contact().list();
         int index = before.size() - 1;
