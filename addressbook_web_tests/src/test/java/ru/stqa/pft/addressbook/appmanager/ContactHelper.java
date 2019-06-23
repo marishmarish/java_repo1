@@ -84,28 +84,19 @@ public class ContactHelper extends BaseHelper {
         wd.findElement(By.cssSelector("input[value='" + id + "']")).click();
     }
 
-    public List<ContactData> list() {
-        List<ContactData> contacts = new ArrayList<>();
-        List<WebElement> elements = wd.findElements(By.xpath("//tr[@name = 'entry']"));
-        for (WebElement element : elements) {
-            String elementText = element.getText();
-            String[] contactInfo = elementText.split(" ");
-            int id = Integer.parseInt(element.findElement(By.tagName("input")).getAttribute("value"));
-            contacts.add(new ContactData().withId(id)
-                    .withFirstname(contactInfo[1]).withLastname(contactInfo[0]).withMobile(contactInfo[2]).withEmail(contactInfo[3]));
-        }
-        return contacts;
-    }
 
     public Contacts all() {
         Contacts contacts = new Contacts();
         List<WebElement> elements = wd.findElements(By.xpath("//tr[@name = 'entry']"));
         for (WebElement element : elements) {
-            String elementText = element.getText();
-            String[] contactInfo = elementText.split(" ");
+            List<WebElement> elementsOfTdElement = element.findElements(By.xpath("td"));
             int id = Integer.parseInt(element.findElement(By.tagName("input")).getAttribute("value"));
-            contacts.add(new ContactData().withId(id)
-                    .withFirstname(contactInfo[1]).withLastname(contactInfo[0]).withMobile(contactInfo[2]).withEmail(contactInfo[3]));
+            contacts.add(new ContactData()
+                    .withId(id)
+                    .withFirstname(elementsOfTdElement.get(2).getText())
+                    .withLastname(elementsOfTdElement.get(1).getText())
+                    .withMobile(elementsOfTdElement.get(5).getText())
+                    .withEmail(elementsOfTdElement.get(4).getText()));
         }
         return contacts;
     }
