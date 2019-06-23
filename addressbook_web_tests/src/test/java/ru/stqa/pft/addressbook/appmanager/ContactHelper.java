@@ -5,11 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import ru.stqa.pft.addressbook.model.ContactData;
 import ru.stqa.pft.addressbook.model.Contacts;
-
-import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.List;
-import java.util.Set;
 
 public class ContactHelper extends BaseHelper {
 
@@ -61,10 +57,13 @@ public class ContactHelper extends BaseHelper {
         return isElementPresent(By.xpath("(//input[@name='selected[]'])[1]"));
     }
 
+    private Contacts contactCash = null;
+
     public void createContact(ContactData contact) {
         initContactCreation();
         fillContactForm(contact);
         submitContactCreation();
+        contactCash = null;
     }
 
 
@@ -72,12 +71,14 @@ public class ContactHelper extends BaseHelper {
         initContactEdition(contact.getId());
         fillContactForm(contact);
         submitAndUpdate();
+        contactCash = null;
     }
 
     public void delete(ContactData contact) {
         selectContactById(contact.getId());
         deleteContact();
         confirmDelete();
+        contactCash = null;
     }
 
     private void selectContactById(int id) {
@@ -86,19 +87,23 @@ public class ContactHelper extends BaseHelper {
 
 
     public Contacts all() {
-        Contacts contacts = new Contacts();
+        if (contactCash != null) {
+            return new Contacts(contactCash);
+        }
+
+        contactCash = new Contacts();
         List<WebElement> elements = wd.findElements(By.xpath("//tr[@name = 'entry']"));
         for (WebElement element : elements) {
             List<WebElement> elementsOfTdElement = element.findElements(By.xpath("td"));
             int id = Integer.parseInt(element.findElement(By.tagName("input")).getAttribute("value"));
-            contacts.add(new ContactData()
+            contactCash.add(new ContactData()
                     .withId(id)
                     .withFirstname(elementsOfTdElement.get(2).getText())
                     .withLastname(elementsOfTdElement.get(1).getText())
                     .withMobile(elementsOfTdElement.get(5).getText())
                     .withEmail(elementsOfTdElement.get(4).getText()));
         }
-        return contacts;
+        return new Contacts(contactCash);
     }
 
 
