@@ -4,9 +4,12 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import ru.stqa.pft.addressbook.model.ContactData;
+import ru.stqa.pft.addressbook.model.Contacts;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 public class ContactHelper extends BaseHelper {
 
@@ -31,7 +34,7 @@ public class ContactHelper extends BaseHelper {
     }
 
     public void initContactEdition(int index) {
-        click(By.xpath("(//img[@alt='Edit'])[" + index + "]"));
+        click(By.xpath("//tr[td/input/@id=" + index + "]/td[8]"));
     }
 
     public void submitAndUpdate() {
@@ -64,16 +67,21 @@ public class ContactHelper extends BaseHelper {
         submitContactCreation();
     }
 
-    public void modify(List<ContactData> before, ContactData contact) {
-        initContactEdition(before.size());
+
+    public void modify(ContactData contact) {
+        initContactEdition(contact.getId());
         fillContactForm(contact);
         submitAndUpdate();
     }
 
-    public void delete(int index) {
-        selectContact(index);
+    public void delete(ContactData contact) {
+        selectContactById(contact.getId());
         deleteContact();
         confirmDelete();
+    }
+
+    private void selectContactById(int id) {
+        wd.findElement(By.cssSelector("input[value='" + id + "']")).click();
     }
 
     public List<ContactData> list() {
@@ -89,9 +97,25 @@ public class ContactHelper extends BaseHelper {
         return contacts;
     }
 
+    public Contacts all() {
+        Contacts contacts = new Contacts();
+        List<WebElement> elements = wd.findElements(By.xpath("//tr[@name = 'entry']"));
+        for (WebElement element : elements) {
+            String elementText = element.getText();
+            String[] contactInfo = elementText.split(" ");
+            int id = Integer.parseInt(element.findElement(By.tagName("input")).getAttribute("value"));
+            contacts.add(new ContactData().withId(id)
+                    .withFirstname(contactInfo[1]).withLastname(contactInfo[0]).withMobile(contactInfo[2]).withEmail(contactInfo[3]));
+        }
+        return contacts;
+    }
+
+
     public void selectContact(int index) {
         wd.findElements(By.name("selected[]"))
                 .get(index)
                 .click();
     }
+
+
 }
