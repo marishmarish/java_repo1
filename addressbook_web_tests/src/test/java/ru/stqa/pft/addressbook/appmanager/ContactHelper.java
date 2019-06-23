@@ -17,6 +17,10 @@ public class ContactHelper extends BaseHelper {
         click(By.xpath("(//input[@name='submit'])[2]"));
     }
 
+    public int count() {
+        return wd.findElements(By.name("selected[]")).size();
+    }
+
     public void fillContactForm(ContactData contactData) {
         type(By.name("firstname"), contactData.getFirstname());
         type(By.name("lastname"), contactData.getLastname());
