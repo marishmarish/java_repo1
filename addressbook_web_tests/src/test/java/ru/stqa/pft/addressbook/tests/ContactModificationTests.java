@@ -30,7 +30,10 @@ public class ContactModificationTests extends TestBase {
         ContactData editedContact = before.iterator().next();
         ContactData contact = new ContactData()
                 .withId(editedContact.getId()).withFirstname("Edited").withLastname("Name")
-                .withMobile("1234567").withEmail("edited@mail.com");
+                .withEmail("edited@mail.com")
+                .withMobile("1234567")
+                .withWorkPhone("123")
+                .withHomePhone("567");
         app.contact().modify(contact);
         app.goTo().homePage();
         assertEquals(app.contact().count(), before.size());

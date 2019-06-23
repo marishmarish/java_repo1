@@ -8,6 +8,13 @@ public class ContactData {
     private  String lastname;
     private  String mobile;
     private  String email;
+    private  String emailSecond;
+    private  String emailThird;
+    private  String homePhone;
+    private  String workPhone;
+    private  String allPhones;
+    private  String address;
+    private  String allEmails;
 
     public String getFirstname() {
         return firstname;
@@ -29,6 +36,7 @@ public class ContactData {
         return id;
     }
 
+
     public ContactData withId(int id) {
         this.id = id;
         return this;
@@ -46,6 +54,24 @@ public class ContactData {
 
     public ContactData withMobile(String mobile) {
         this.mobile = mobile;
+        return this;
+    }
+
+    public String getHomePhone() {
+        return homePhone;
+    }
+
+    public ContactData withHomePhone(String homePhone) {
+        this.homePhone = homePhone;
+        return this;
+    }
+
+    public String getWorkPhone() {
+        return workPhone;
+    }
+
+    public ContactData withWorkPhone(String workPhone) {
+        this.workPhone = workPhone;
         return this;
     }
 
@@ -67,5 +93,50 @@ public class ContactData {
     @Override
     public int hashCode() {
         return Objects.hash(id, firstname, lastname);
+    }
+
+    public String getAllPhones() {
+        return allPhones;
+    }
+
+    public ContactData withAllPhones(String allPhones) {
+        this.allPhones = allPhones;
+        return this;
+    }
+
+    public String getEmailSecond() {
+        return emailSecond;
+    }
+
+    public ContactData withEmailSecond(String emailSecond) {
+        this.emailSecond = emailSecond;
+        return this;
+    }
+
+    public String getEmailThird() {
+        return emailThird;
+    }
+
+    public ContactData withEmailThird(String emailThird) {
+        this.emailThird = emailThird;
+        return this;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public ContactData withAddress(String address) {
+        this.address = address;
+        return this;
+    }
+
+    public String getAllEmails() {
+        return allEmails;
+    }
+
+    public ContactData withAllEmails(String allEmails) {
+        this.allEmails = allEmails;
+        return this;
     }
 }
