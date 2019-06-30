@@ -37,7 +37,7 @@ public class ContactHelper extends BaseHelper {
     }
 
     public void initContactEdition(int index) {
-        click(By.xpath("//tr[td/input/@id=" + index + "]/td[8]"));
+        click(By.xpath("//input[@id=" + index + "]/../../td[8]/a"));
     }
 
     public void submitAndUpdate() {
