@@ -1,0 +1,1153 @@
+379  [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+423  [main] DEBUG o.h.i.i.IntegratorServiceImpl - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator]. 
+426  [main] DEBUG o.h.i.i.IntegratorServiceImpl - Adding Integrator [org.hibernate.secure.spi.JaccIntegrator]. 
+435  [main] DEBUG o.h.i.i.IntegratorServiceImpl - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator]. 
+629  [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.3.Final} 
+629  [main] DEBUG org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found 
+895  [main] DEBUG o.h.b.j.i.s.LocalXmlResourceResolver - Interpreting public/system identifier : [-//Hibernate/Hibernate Configuration DTD 3.0//EN] - [http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd] 
+895  [main] DEBUG o.h.b.j.i.s.LocalXmlResourceResolver - Recognized hibernate-configuration identifier; attempting to resolve on classpath under org/hibernate/ 
+895  [main] DEBUG o.h.b.c.internal.JaxbCfgProcessor - cfg.xml document did not define namespaces; wrapping in custom event reader to introduce namespace information 
+1332 [main] DEBUG o.h.service.spi.ServiceBinding - Overriding existing service binding [org.hibernate.secure.spi.JaccService] 
+1379 [main] DEBUG o.h.c.i.RegionFactoryInitiator - Cannot default RegionFactory based on registered strategies as `[]` RegionFactory strategies were registered 
+1379 [main] DEBUG o.h.c.i.RegionFactoryInitiator - Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory 
+1410 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final} 
+1473 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@594a11 
+1473 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@594a11 
+1473 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@594a11 
+1473 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@e15fe2 
+1473 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration true_false -> org.hibernate.type.TrueFalseType@1ad2aa7 
+1473 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration yes_no -> org.hibernate.type.YesNoType@18dada8 
+1473 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.ByteType@a94400 
+1473 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.ByteType@a94400 
+1473 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@a94400 
+1473 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration character -> org.hibernate.type.CharacterType@1bb571c 
+1473 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration char -> org.hibernate.type.CharacterType@1bb571c 
+1473 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@1bb571c 
+1488 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration short -> org.hibernate.type.ShortType@5290e5 
+1488 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration short -> org.hibernate.type.ShortType@5290e5 
+1488 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@5290e5 
+1488 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration integer -> org.hibernate.type.IntegerType@5bd62 
+1488 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration int -> org.hibernate.type.IntegerType@5bd62 
+1488 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@5bd62 
+1488 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration long -> org.hibernate.type.LongType@1920ade 
+1488 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration long -> org.hibernate.type.LongType@1920ade 
+1488 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Long -> org.hibernate.type.LongType@1920ade 
+1488 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration float -> org.hibernate.type.FloatType@1cf0d14 
+1488 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration float -> org.hibernate.type.FloatType@1cf0d14 
+1488 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@1cf0d14 
+1488 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration double -> org.hibernate.type.DoubleType@1d14d74 
+1488 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration double -> org.hibernate.type.DoubleType@1d14d74 
+1488 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@1d14d74 
+1488 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@e8bcbc 
+1488 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@e8bcbc 
+1488 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@1026701 
+1488 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@1026701 
+1488 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration string -> org.hibernate.type.StringType@104101a 
+1488 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.String -> org.hibernate.type.StringType@104101a 
+1488 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@1f6620a 
+1488 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@1d5a580 
+1488 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration url -> org.hibernate.type.UrlType@131522b 
+1488 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.net.URL -> org.hibernate.type.UrlType@131522b 
+1504 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration Duration -> org.hibernate.type.DurationType@b2bb0c 
+1504 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.Duration -> org.hibernate.type.DurationType@b2bb0c 
+1520 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration Instant -> org.hibernate.type.InstantType@72fe87 
+1520 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.Instant -> org.hibernate.type.InstantType@72fe87 
+1520 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@1a8da0f 
+1520 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@1a8da0f 
+1520 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration LocalDate -> org.hibernate.type.LocalDateType@12d0d24 
+1520 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@12d0d24 
+1520 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@e36d14 
+1520 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@e36d14 
+1520 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@1d2da2d 
+1520 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@1d2da2d 
+1520 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@1eef88a 
+1520 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@1eef88a 
+1520 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@18f0a79 
+1520 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@18f0a79 
+1535 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration date -> org.hibernate.type.DateType@c73c26 
+1535 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Date -> org.hibernate.type.DateType@c73c26 
+1535 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration time -> org.hibernate.type.TimeType@196c360 
+1535 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@196c360 
+1535 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration timestamp -> org.hibernate.type.TimestampType@19ceda0 
+1535 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@19ceda0 
+1535 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@19ceda0 
+1551 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@8d1cd7 
+1551 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration calendar -> org.hibernate.type.CalendarType@1f4878b 
+1551 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@1f4878b 
+1551 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@1f4878b 
+1551 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@81f72c 
+1551 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration locale -> org.hibernate.type.LocaleType@161c410 
+1551 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@161c410 
+1551 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration currency -> org.hibernate.type.CurrencyType@f5281c 
+1551 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@f5281c 
+1551 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration timezone -> org.hibernate.type.TimeZoneType@197ad89 
+1551 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@197ad89 
+1551 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration class -> org.hibernate.type.ClassType@1329995 
+1551 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@1329995 
+1551 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@1dbbdf8 
+1551 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@1dbbdf8 
+1551 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@1ab013 
+1551 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration binary -> org.hibernate.type.BinaryType@f0a9da 
+1567 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration byte[] -> org.hibernate.type.BinaryType@f0a9da 
+1567 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration [B -> org.hibernate.type.BinaryType@f0a9da 
+1567 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@17923a5 
+1567 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@17923a5 
+1567 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@17923a5 
+1567 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration row_version -> org.hibernate.type.RowVersionType@ca951f 
+1567 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration image -> org.hibernate.type.ImageType@38ccb8 
+1567 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration characters -> org.hibernate.type.CharArrayType@1213651 
+1567 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration char[] -> org.hibernate.type.CharArrayType@1213651 
+1567 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration [C -> org.hibernate.type.CharArrayType@1213651 
+1567 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@15e33cc 
+1567 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@15e33cc 
+1567 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@15e33cc 
+1567 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration text -> org.hibernate.type.TextType@193222f 
+1567 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration ntext -> org.hibernate.type.NTextType@e3540e 
+1567 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration blob -> org.hibernate.type.BlobType@de186c 
+1567 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@de186c 
+1567 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@1549490 
+1567 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration clob -> org.hibernate.type.ClobType@3bc7ed 
+1567 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@3bc7ed 
+1567 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration nclob -> org.hibernate.type.NClobType@1dcc487 
+1567 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@1dcc487 
+1567 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@1771cc9 
+1567 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@cda2c2 
+1567 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration serializable -> org.hibernate.type.SerializableType@48362c 
+1582 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration object -> org.hibernate.type.ObjectType@3e2ac 
+1582 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@3e2ac 
+1582 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@7bcebd 
+1582 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@1c65cdc 
+1582 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@bf1791 
+1582 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@504ecd 
+1582 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@b27cdc 
+1582 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@139e7aa 
+1582 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@1b669c3 
+1582 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@1c66ade 
+1613 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator] 
+1613 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator] 
+1613 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator] 
+1613 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator] 
+1613 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned] 
+1613 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator] 
+1613 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator] 
+1613 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator] 
+1613 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator] 
+1613 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator] 
+1613 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator] 
+1613 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator] 
+1613 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator] 
+1613 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator] 
+1629 [main] WARN  o.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+1645 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/addressbook] 
+1645 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {user=root, password=, serverTimezone=UTC} 
+1645 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false 
+1645 [main] DEBUG o.h.e.j.c.i.DriverManagerConnectionProviderImpl - Initializing Connection pool with 1 Connections 
+1645 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1) 
+1863 [main] DEBUG o.h.e.j.e.i.JdbcEnvironmentInitiator - Database ->
+       name : MySQL
+    version : 5.5.5-10.1.38-MariaDB
+      major : 5
+      minor : 5 
+1863 [main] DEBUG o.h.e.j.e.i.JdbcEnvironmentInitiator - Driver ->
+       name : MySQL Connector/J
+    version : mysql-connector-java-8.0.16 (Revision: 34cbc6bc61f72836e26327537a432d6db7c77de6)
+      major : 8
+      minor : 0 
+1863 [main] DEBUG o.h.e.j.e.i.JdbcEnvironmentInitiator - JDBC version : 4.2 
+1879 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect 
+1910 [main] DEBUG o.h.e.j.e.s.IdentifierHelperBuilder - JDBC driver metadata reported database stores quoted identifiers in more than one case 
+1910 [main] DEBUG o.h.e.j.e.s.IdentifierHelperBuilder - IdentifierCaseStrategy for both quoted and unquoted identifiers was set to the same strategy [LOWER]; that will likely lead to problems in schema update and validation if using quoted identifiers 
+1957 [main] DEBUG o.h.boot.model.relational.Namespace - Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}] 
+1957 [main] DEBUG o.h.t.spi.TypeConfiguration$Scope - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@1605f2f] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@ce4966] 
+2035 [main] DEBUG org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: ru.stqa.pft.addressbook.model.GroupData 
+2067 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'} 
+2067 [main] DEBUG o.h.cfg.annotations.EntityBinder - Import with entity name GroupData 
+2067 [main] DEBUG o.h.cfg.annotations.EntityBinder - Bind entity ru.stqa.pft.addressbook.model.GroupData on table group_list 
+2098 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(group_list), mappingColumn=group_id, insertable=true, updatable=true, unique=false} 
+2113 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property id with lazy=false 
+2113 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [ru.stqa.pft.addressbook.model.GroupData:id] 
+2113 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for id 
+2113 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property id 
+2113 [main] DEBUG org.hibernate.cfg.BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(group_id)]), id, assigned, , ...) 
+2113 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(group_list), mappingColumn=group_footer, insertable=true, updatable=true, unique=false} 
+2113 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property footer with lazy=false 
+2113 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [ru.stqa.pft.addressbook.model.GroupData:footer] 
+2113 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for footer 
+2113 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property footer 
+2129 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(group_list), mappingColumn=group_header, insertable=true, updatable=true, unique=false} 
+2129 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property header with lazy=false 
+2129 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [ru.stqa.pft.addressbook.model.GroupData:header] 
+2129 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for header 
+2129 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property header 
+2129 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(group_list), mappingColumn=group_name, insertable=true, updatable=true, unique=false} 
+2129 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property name with lazy=false 
+2129 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [ru.stqa.pft.addressbook.model.GroupData:name] 
+2129 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for name 
+2129 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property name 
+2129 [main] DEBUG org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: ru.stqa.pft.addressbook.model.ContactData 
+2129 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'} 
+2129 [main] DEBUG o.h.cfg.annotations.EntityBinder - Import with entity name ContactData 
+2129 [main] DEBUG o.h.cfg.annotations.EntityBinder - Bind entity ru.stqa.pft.addressbook.model.ContactData on table addressbook 
+2129 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=id, insertable=true, updatable=true, unique=false} 
+2129 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property id with lazy=false 
+2129 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [ru.stqa.pft.addressbook.model.ContactData:id] 
+2129 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for id 
+2129 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property id 
+2129 [main] DEBUG org.hibernate.cfg.BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, assigned, , ...) 
+2129 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=address, insertable=true, updatable=true, unique=false} 
+2129 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property address with lazy=false 
+2129 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [ru.stqa.pft.addressbook.model.ContactData:address] 
+2129 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for address 
+2129 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property address 
+2129 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=email, insertable=true, updatable=true, unique=false} 
+2129 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property email with lazy=false 
+2129 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [ru.stqa.pft.addressbook.model.ContactData:email] 
+2129 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for email 
+2129 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property email 
+2129 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=email2, insertable=true, updatable=true, unique=false} 
+2129 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property emailSecond with lazy=false 
+2129 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [ru.stqa.pft.addressbook.model.ContactData:emailSecond] 
+2129 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for emailSecond 
+2129 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property emailSecond 
+2129 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=email3, insertable=true, updatable=true, unique=false} 
+2129 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property emailThird with lazy=false 
+2129 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [ru.stqa.pft.addressbook.model.ContactData:emailThird] 
+2129 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for emailThird 
+2129 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property emailThird 
+2129 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=firstname, insertable=true, updatable=true, unique=false} 
+2129 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property firstname with lazy=false 
+2129 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [ru.stqa.pft.addressbook.model.ContactData:firstname] 
+2129 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for firstname 
+2129 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property firstname 
+2129 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=home, insertable=true, updatable=true, unique=false} 
+2129 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property homePhone with lazy=false 
+2129 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [ru.stqa.pft.addressbook.model.ContactData:homePhone] 
+2129 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for homePhone 
+2129 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property homePhone 
+2129 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=lastname, insertable=true, updatable=true, unique=false} 
+2129 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property lastname with lazy=false 
+2129 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [ru.stqa.pft.addressbook.model.ContactData:lastname] 
+2129 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for lastname 
+2129 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property lastname 
+2129 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=mobile, insertable=true, updatable=true, unique=false} 
+2129 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property mobile with lazy=false 
+2129 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [ru.stqa.pft.addressbook.model.ContactData:mobile] 
+2129 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for mobile 
+2129 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property mobile 
+2129 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=work, insertable=true, updatable=true, unique=false} 
+2129 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property workPhone with lazy=false 
+2129 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [ru.stqa.pft.addressbook.model.ContactData:workPhone] 
+2129 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for workPhone 
+2129 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property workPhone 
+2145 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for id 
+2145 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for footer 
+2145 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for header 
+2145 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for name 
+2145 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for id 
+2145 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for address 
+2145 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for email 
+2145 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for emailSecond 
+2145 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for emailThird 
+2145 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for firstname 
+2145 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for homePhone 
+2145 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for lastname 
+2145 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for mobile 
+2145 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for workPhone 
+2145 [main] DEBUG org.hibernate.mapping.PrimaryKey - Forcing column [group_id] to be non-null as it is part of the primary key for table [group_list] 
+2145 [main] DEBUG org.hibernate.mapping.PrimaryKey - Forcing column [id] to be non-null as it is part of the primary key for table [addressbook] 
+2192 [main] DEBUG o.h.internal.SessionFactoryImpl - Building session factory 
+2192 [main] DEBUG org.hibernate.cfg.Settings - SessionFactory name : null 
+2192 [main] DEBUG org.hibernate.cfg.Settings - Automatic flush during beforeCompletion(): enabled 
+2192 [main] DEBUG org.hibernate.cfg.Settings - Automatic session close at end of transaction: disabled 
+2192 [main] DEBUG org.hibernate.cfg.Settings - Statistics: disabled 
+2192 [main] DEBUG org.hibernate.cfg.Settings - Deleted entity synthetic identifier rollback: disabled 
+2192 [main] DEBUG org.hibernate.cfg.Settings - Default entity-mode: pojo 
+2192 [main] DEBUG org.hibernate.cfg.Settings - Check Nullability in Core (should be disabled when Bean Validation is on): enabled 
+2192 [main] DEBUG org.hibernate.cfg.Settings - Allow initialization of lazy state outside session : disabled 
+2192 [main] DEBUG org.hibernate.cfg.Settings - Using BatchFetchStyle : LEGACY 
+2192 [main] DEBUG org.hibernate.cfg.Settings - Default batch fetch size: -1 
+2192 [main] DEBUG org.hibernate.cfg.Settings - Maximum outer join fetch depth: 2 
+2192 [main] DEBUG org.hibernate.cfg.Settings - Default null ordering: NONE 
+2192 [main] DEBUG org.hibernate.cfg.Settings - Order SQL updates by primary key: disabled 
+2192 [main] DEBUG org.hibernate.cfg.Settings - Order SQL inserts for batching: disabled 
+2192 [main] DEBUG org.hibernate.cfg.Settings - multi-tenancy strategy : NONE 
+2192 [main] DEBUG org.hibernate.cfg.Settings - JTA Track by Thread: enabled 
+2192 [main] DEBUG org.hibernate.cfg.Settings - Query language substitutions: {} 
+2192 [main] DEBUG org.hibernate.cfg.Settings - Named query checking : enabled 
+2192 [main] DEBUG org.hibernate.cfg.Settings - Second-level cache: disabled 
+2192 [main] DEBUG org.hibernate.cfg.Settings - Second-level query cache: disabled 
+2192 [main] DEBUG org.hibernate.cfg.Settings - Second-level query cache factory: null 
+2192 [main] DEBUG org.hibernate.cfg.Settings - Second-level cache region prefix: null 
+2192 [main] DEBUG org.hibernate.cfg.Settings - Optimize second-level cache for minimal puts: disabled 
+2192 [main] DEBUG org.hibernate.cfg.Settings - Structured second-level cache entries: disabled 
+2192 [main] DEBUG org.hibernate.cfg.Settings - Second-level cache direct-reference entries: disabled 
+2192 [main] DEBUG org.hibernate.cfg.Settings - Automatic eviction of collection cache: disabled 
+2192 [main] DEBUG org.hibernate.cfg.Settings - JDBC batch size: 15 
+2192 [main] DEBUG org.hibernate.cfg.Settings - JDBC batch updates for versioned data: enabled 
+2192 [main] DEBUG org.hibernate.cfg.Settings - Scrollable result sets: enabled 
+2192 [main] DEBUG org.hibernate.cfg.Settings - Wrap result sets: disabled 
+2192 [main] DEBUG org.hibernate.cfg.Settings - JDBC3 getGeneratedKeys(): enabled 
+2192 [main] DEBUG org.hibernate.cfg.Settings - JDBC result set fetch size: null 
+2192 [main] DEBUG org.hibernate.cfg.Settings - Connection release mode: AFTER_TRANSACTION 
+2192 [main] DEBUG org.hibernate.cfg.Settings - Generate SQL with comments: disabled 
+2192 [main] DEBUG org.hibernate.cfg.Settings - JPA compliance - query :  
+2192 [main] DEBUG org.hibernate.cfg.Settings - JPA compliance - closed-handling :  
+2192 [main] DEBUG org.hibernate.cfg.Settings - JPA compliance - lists :  
+2192 [main] DEBUG org.hibernate.cfg.Settings - JPA compliance - transactions :  
+2270 [main] DEBUG o.h.internal.SessionFactoryImpl - Session factory constructed with filter configurations : {} 
+2270 [main] DEBUG o.h.internal.SessionFactoryImpl - Instantiating session factory with properties: {sun.desktop=windows, awt.toolkit=sun.awt.windows.WToolkit, dialect=org.hibernate.dialect.MySQL5Dialect, file.encoding.pkg=sun.io, java.specification.version=1.8, hibernate.connection.serverTimezone=UTC, sun.cpu.isalist=pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86, sun.jnu.encoding=Cp1251, hibernate.dialect=org.hibernate.dialect.MySQL5Dialect, java.class.path=C:\Program Files\JetBrains\IntelliJ IDEA 2019.1.3\lib\idea_rt.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2019.1.3\plugins\testng\lib\testng-plugin.jar;C:\Program Files (x86)\Java\jdk1.8.0_144\jre\lib\charsets.jar;C:\Program Files (x86)\Java\jdk1.8.0_144\jre\lib\deploy.jar;C:\Program Files (x86)\Java\jdk1.8.0_144\jre\lib\ext\access-bridge-32.jar;C:\Program Files (x86)\Java\jdk1.8.0_144\jre\lib\ext\cldrdata.jar;C:\Program Files (x86)\Java\jdk1.8.0_144\jre\lib\ext\dnsns.jar;C:\Program Files (x86)\Java\jdk1.8.0_144\jre\lib\ext\jaccess.jar;C:\Program Files (x86)\Java\jdk1.8.0_144\jre\lib\ext\jfxrt.jar;C:\Program Files (x86)\Java\jdk1.8.0_144\jre\lib\ext\localedata.jar;C:\Program Files (x86)\Java\jdk1.8.0_144\jre\lib\ext\nashorn.jar;C:\Program Files (x86)\Java\jdk1.8.0_144\jre\lib\ext\sunec.jar;C:\Program Files (x86)\Java\jdk1.8.0_144\jre\lib\ext\sunjce_provider.jar;C:\Program Files (x86)\Java\jdk1.8.0_144\jre\lib\ext\sunmscapi.jar;C:\Program Files (x86)\Java\jdk1.8.0_144\jre\lib\ext\sunpkcs11.jar;C:\Program Files (x86)\Java\jdk1.8.0_144\jre\lib\ext\zipfs.jar;C:\Program Files (x86)\Java\jdk1.8.0_144\jre\lib\javaws.jar;C:\Program Files (x86)\Java\jdk1.8.0_144\jre\lib\jce.jar;C:\Program Files (x86)\Java\jdk1.8.0_144\jre\lib\jfr.jar;C:\Program Files (x86)\Java\jdk1.8.0_144\jre\lib\jfxswt.jar;C:\Program Files (x86)\Java\jdk1.8.0_144\jre\lib\jsse.jar;C:\Program Files (x86)\Java\jdk1.8.0_144\jre\lib\management-agent.jar;C:\Program Files (x86)\Java\jdk1.8.0_144\jre\lib\plugin.jar;C:\Program Files (x86)\Java\jdk1.8.0_144\jre\lib\resources.jar;C:\Program Files (x86)\Java\jdk1.8.0_144\jre\lib\rt.jar;C:\Users\v\Desktop\java\java_repo1\addressbook_web_tests\out\test\classes;C:\Users\v\Desktop\java\java_repo1\addressbook_web_tests\out\test\resources;C:\Users\v\.gradle\caches\modules-2\files-2.1\org.testng\testng\6.9.10\6feb3e964aeb7097aff30c372aac3ec0f8d87ede\testng-6.9.10.jar;C:\Users\v\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-java\4.0.0-alpha-1\df2f51ab0723d8ec017a73c6ef8f6983f573229c\selenium-java-4.0.0-alpha-1.jar;C:\Users\v\.gradle\caches\modules-2\files-2.1\org.hamcrest\java-hamcrest\2.0.0.0\f1c8853ade0ecf707f5a261c830e98893983813\java-hamcrest-2.0.0.0.jar;C:\Users\v\.gradle\caches\modules-2\files-2.1\com.beust\jcommander\1.72\6375e521c1e11d6563d4f25a07ce124ccf8cd171\jcommander-1.72.jar;C:\Users\v\.gradle\caches\modules-2\files-2.1\com.thoughtworks.xstream\xstream\1.4.9\c43f6e6bfa79b56e04a8898a923c3cf7144dd460\xstream-1.4.9.jar;C:\Users\v\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.8.5\f645ed69d595b24d4cf8b3fbb64cc505bede8829\gson-2.8.5.jar;C:\Users\v\.gradle\caches\modules-2\files-2.1\ch.qos.logback\logback-classic\1.1.5\92353eb144695bba80b31f7bec4f36d871f230ac\logback-classic-1.1.5.jar;C:\Users\v\.gradle\caches\modules-2\files-2.1\mysql\mysql-connector-java\8.0.16\6088b7a25188ab4b3ab865422a8ec77ade29236\mysql-connector-java-8.0.16.jar;C:\Users\v\.gradle\caches\modules-2\files-2.1\org.hibernate\hibernate-core\5.4.3.Final\76352d4bbd8d9a3d68fe028e732efe26fdd65def\hibernate-core-5.4.3.Final.jar;C:\Users\v\.gradle\caches\modules-2\files-2.1\org.beanshell\bsh\2.0b4\a05f0a0feefa8d8467ac80e16e7de071489f0d9c\bsh-2.0b4.jar;C:\Users\v\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-chrome-driver\4.0.0-alpha-1\64f25b878c1c02e293abac973a2cc18fdc44492a\selenium-chrome-driver-4.0.0-alpha-1.jar;C:\Users\v\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-edge-driver\4.0.0-alpha-1\619e3c72fcb4881d8f805302ee661b2e0cad9099\selenium-edge-driver-4.0.0-alpha-1.jar;C:\Users\v\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-firefox-xpi-driver\4.0.0-alpha-1\9bdccb7dc1eb7d31e68ac3c3c8a60f89affeafca\selenium-firefox-xpi-driver-4.0.0-alpha-1.jar;C:\Users\v\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-ie-driver\4.0.0-alpha-1\5b754e046a63cbc25ea2788e91959cb95a5285d\selenium-ie-driver-4.0.0-alpha-1.jar;C:\Users\v\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-opera-driver\4.0.0-alpha-1\2dd553e50b9d0f447bc046a09a84f3d914a3840d\selenium-opera-driver-4.0.0-alpha-1.jar;C:\Users\v\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-safari-driver\4.0.0-alpha-1\c7a9fb35453dbe48d9202da826b3575475a02950\selenium-safari-driver-4.0.0-alpha-1.jar;C:\Users\v\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-support\4.0.0-alpha-1\91dd6fe9c4c424fe01a5aa4db7bae9c20bca07e7\selenium-support-4.0.0-alpha-1.jar;C:\Users\v\.gradle\caches\modules-2\files-2.1\xmlpull\xmlpull\1.1.3.1\2b8e230d2ab644e4ecaa94db7cdedbc40c805dfa\xmlpull-1.1.3.1.jar;C:\Users\v\.gradle\caches\modules-2\files-2.1\xpp3\xpp3_min\1.1.4c\19d4e90b43059058f6e056f794f0ea4030d60b86\xpp3_min-1.1.4c.jar;C:\Users\v\.gradle\caches\modules-2\files-2.1\ch.qos.logback\logback-core\1.1.5\16722afde74444716e299bee1f60aec9f6d1f0dc\logback-core-1.1.5.jar;C:\Users\v\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\1.7.16\3a6274f658487d5bfff9af3862beff6da1e7fd52\slf4j-api-1.7.16.jar;C:\Users\v\.gradle\caches\modules-2\files-2.1\com.google.protobuf\protobuf-java\3.6.1\d06d46ecfd92ec6d0f3b423b4cd81cb38d8b924\protobuf-java-3.6.1.jar;C:\Users\v\.gradle\caches\modules-2\files-2.1\org.hibernate.common\hibernate-commons-annotations\5.1.0.Final\700aeedc4a2089816621948f0379e17cbd17d5db\hibernate-commons-annotations-5.1.0.Final.jar;C:\Users\v\.gradle\caches\modules-2\files-2.1\org.jboss.logging\jboss-logging\3.3.2.Final\3789d00e859632e6c6206adc0c71625559e6e3b0\jboss-logging-3.3.2.Final.jar;C:\Users\v\.gradle\caches\modules-2\files-2.1\javax.persistence\javax.persistence-api\2.2\25665ac8c0b62f50e6488173233239120fc52c96\javax.persistence-api-2.2.jar;C:\Users\v\.gradle\caches\modules-2\files-2.1\org.javassist\javassist\3.24.0-GA\d7466fc2e3af7c023e95c510f06448ad29b225b3\javassist-3.24.0-GA.jar;C:\Users\v\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-firefox-driver\4.0.0-alpha-1\3562376492b1949b2c61b25e659088656c62185\selenium-firefox-driver-4.0.0-alpha-1.jar;C:\Users\v\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-remote-driver\4.0.0-alpha-1\22b29396340cb549e665d685d981dfa8670d01e6\selenium-remote-driver-4.0.0-alpha-1.jar;C:\Users\v\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy\1.9.12\39050dbbd36862ea87eb9a64158854b04619ccd6\byte-buddy-1.9.12.jar;C:\Users\v\.gradle\caches\modules-2\files-2.1\antlr\antlr\2.7.7\83cd2cd674a217ade95a4bb83a8a14f351f48bd0\antlr-2.7.7.jar;C:\Users\v\.gradle\caches\modules-2\files-2.1\org.jboss.spec.javax.transaction\jboss-transaction-api_1.2_spec\1.1.1.Final\a8485cab9484dda36e9a8c319e76b5cc18797b58\jboss-transaction-api_1.2_spec-1.1.1.Final.jar;C:\Users\v\.gradle\caches\modules-2\files-2.1\org.jboss\jandex\2.0.5.Final\7060f67764565b9ee9d467e3ed0cb8a9c601b23a\jandex-2.0.5.Final.jar;C:\Users\v\.gradle\caches\modules-2\files-2.1\com.fasterxml\classmate\1.3.4\3d5f48f10bbe4eb7bd862f10c0583be2e0053c6\classmate-1.3.4.jar;C:\Users\v\.gradle\caches\modules-2\files-2.1\org.glassfish.jaxb\jaxb-runtime\2.3.1\dd6dda9da676a54c5b36ca2806ff95ee017d8738\jaxb-runtime-2.3.1.jar;C:\Users\v\.gradle\caches\modules-2\files-2.1\javax.xml.bind\jaxb-api\2.3.1\8531ad5ac454cc2deb9d4d32c40c4d7451939b5d\jaxb-api-2.3.1.jar;C:\Users\v\.gradle\caches\modules-2\files-2.1\javax.activation\javax.activation-api\1.2.0\85262acf3ca9816f9537ca47d5adeabaead7cb16\javax.activation-api-1.2.0.jar;C:\Users\v\.gradle\caches\modules-2\files-2.1\org.dom4j\dom4j\2.1.1\3dce5dbb3571aa820c677fadd8349bfa8f00c199\dom4j-2.1.1.jar;C:\Users\v\.gradle\caches\modules-2\files-2.1\org.glassfish.jaxb\txw2\2.3.1\a09d2c48d3285f206fafbffe0e50619284e92126\txw2-2.3.1.jar;C:\Users\v\.gradle\caches\modules-2\files-2.1\com.sun.istack\istack-commons-runtime\3.0.7\c197c86ceec7318b1284bffb49b54226ca774003\istack-commons-runtime-3.0.7.jar;C:\Users\v\.gradle\caches\modules-2\files-2.1\org.jvnet.staxex\stax-ex\1.8\8cc35f73da321c29973191f2cf143d29d26a1df7\stax-ex-1.8.jar;C:\Users\v\.gradle\caches\modules-2\files-2.1\com.sun.xml.fastinfoset\FastInfoset\1.2.15\bb7b7ec0379982b97c62cd17465cb6d9155f68e8\FastInfoset-1.2.15.jar;C:\Users\v\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-api\4.0.0-alpha-1\9cb387573b8dd4673b7991066b7afd9e1cabd930\selenium-api-4.0.0-alpha-1.jar;C:\Users\v\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-exec\1.3\8dfb9facd0830a27b1b5f29f84593f0aeee7773b\commons-exec-1.3.jar;C:\Users\v\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\27.1-jre\e47b59c893079b87743cdcfb6f17ca95c08c592c\guava-27.1-jre.jar;C:\Users\v\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.14.0\c3a9efd10f26a802da2c47dbe54a8d4c44a6019f\okhttp-3.14.0.jar;C:\Users\v\.gradle\caches\modules-2\files-2.1\com.google.guava\failureaccess\1.0.1\1dcf1de382a0bf95a3d8b0849546c88bac1292c9\failureaccess-1.0.1.jar;C:\Users\v\.gradle\caches\modules-2\files-2.1\com.google.guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\b421526c5f297295adef1c886e5246c39d4ac629\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\v\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.2\25ea2e8b0c338a877313bd4672d3fe056ea78f0d\jsr305-3.0.2.jar;C:\Users\v\.gradle\caches\modules-2\files-2.1\org.checkerframework\checker-qual\2.5.2\cea74543d5904a30861a61b4643a5f2bb372efc4\checker-qual-2.5.2.jar;C:\Users\v\.gradle\caches\modules-2\files-2.1\com.google.errorprone\error_prone_annotations\2.2.0\88e3c593e9b3586e1c6177f89267da6fc6986f0c\error_prone_annotations-2.2.0.jar;C:\Users\v\.gradle\caches\modules-2\files-2.1\com.google.j2objc\j2objc-annotations\1.1\ed28ded51a8b1c6b112568def5f4b455e6809019\j2objc-annotations-1.1.jar;C:\Users\v\.gradle\caches\modules-2\files-2.1\org.codehaus.mojo\animal-sniffer-annotations\1.17\f97ce6decaea32b36101e37979f8b647f00681fb\animal-sniffer-annotations-1.17.jar;C:\Users\v\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.17.2\78c7820b205002da4d2d137f6f312bd64b3d6049\okio-1.17.2.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2019.1.3\plugins\testng\lib\jcommander-1.27.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2019.1.3\lib\idea_rt.jar, java.vm.vendor=Oracle Corporation, sun.arch.data.model=32, idea.test.cyclic.buffer.size=1048576, hbm2ddl.auto=validate, user.variant=, java.vendor.url=http://java.oracle.com/, user.timezone=Europe/Moscow, os.name=Windows 8.1, java.vm.specification.version=1.8, sun.java.launcher=SUN_STANDARD, user.country=RU, sun.boot.library.path=C:\Program Files (x86)\Java\jdk1.8.0_144\jre\bin, sun.java.command=org.testng.RemoteTestNGStarter -usedefaultlisteners false -socket55926 @w@C:\Users\v\AppData\Local\Temp\idea_working_dirs_testng.tmp -temp C:\Users\v\AppData\Local\Temp\idea_testng.tmp, sun.cpu.endian=little, user.home=C:\Users\v, user.language=ru, java.specification.vendor=Oracle Corporation, hibernate.cache.provider_class=org.hibernate.cache.internal.NoCacheProvider, connection.serverTimezone=UTC, java.home=C:\Program Files (x86)\Java\jdk1.8.0_144\jre, file.separator=\, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, java.specification.name=Java Platform API Specification, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, cache.provider_class=org.hibernate.cache.internal.NoCacheProvider, sun.boot.class.path=C:\Program Files (x86)\Java\jdk1.8.0_144\jre\lib\resources.jar;C:\Program Files (x86)\Java\jdk1.8.0_144\jre\lib\rt.jar;C:\Program Files (x86)\Java\jdk1.8.0_144\jre\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jdk1.8.0_144\jre\lib\jsse.jar;C:\Program Files (x86)\Java\jdk1.8.0_144\jre\lib\jce.jar;C:\Program Files (x86)\Java\jdk1.8.0_144\jre\lib\charsets.jar;C:\Program Files (x86)\Java\jdk1.8.0_144\jre\lib\jfr.jar;C:\Program Files (x86)\Java\jdk1.8.0_144\jre\classes, hibernate.hbm2ddl.auto=validate, user.script=, connection.password=, sun.management.compiler=HotSpot Client Compiler, java.runtime.version=1.8.0_144-b01, user.name=v, path.separator=;, hibernate.connection.username=****, os.version=6.3, java.endorsed.dirs=C:\Program Files (x86)\Java\jdk1.8.0_144\jre\lib\endorsed, java.runtime.name=Java(TM) SE Runtime Environment, hibernate.connection.url=jdbc:mysql://localhost:3306/addressbook, connection.pool_size=1, file.encoding=UTF-8, java.vm.name=Java HotSpot(TM) Client VM, hibernate.show_sql=true, show_sql=true, hibernate.connection.driver_class=com.mysql.jdbc.Driver, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, java.io.tmpdir=C:\Users\v\AppData\Local\Temp\, java.version=1.8.0_144, user.dir=C:\Users\v\Desktop\java\java_repo1\addressbook_web_tests, os.arch=x86, connection.username=root, java.vm.specification.name=Java Virtual Machine Specification, hibernate.connection.password=****, java.awt.printerjob=sun.awt.windows.WPrinterJob, sun.os.patch.level=, connection.driver_class=com.mysql.jdbc.Driver, hibernate.boot.CfgXmlAccessService.key=org.hibernate.boot.cfgxml.spi.LoadedConfig@1d51ed8, java.library.path=C:\Program Files (x86)\Java\jdk1.8.0_144\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Common Files\Acronis\SnapAPI\;C:\Program Files (x86)\QuickTime\QTSystem\;C:\PROGRA~2\Groovy\GROOVY~1.0\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.6.0_17\bin;C:\ADB\bin;C:\Program Files (x86)\Java\jdk1.8.0_144\bin;C:\geckodriver;C:\Users\v\AppData\Local\GitHubDesktop\bin;., java.vendor=Oracle Corporation, java.vm.info=mixed mode, java.vm.version=25.144-b01, hibernate.bytecode.use_reflection_optimizer=false, sun.io.unicode.encoding=UnicodeLittle, java.ext.dirs=C:\Program Files (x86)\Java\jdk1.8.0_144\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext, hibernate.connection.pool_size=1, connection.url=jdbc:mysql://localhost:3306/addressbook, java.class.version=52.0} 
+2285 [main] DEBUG o.h.secure.spi.JaccIntegrator - Skipping JACC integration as it was not enabled 
+2301 [main] DEBUG o.h.internal.SessionFactoryImpl - Instantiated session factory 
+2301 [main] DEBUG o.h.t.spi.TypeConfiguration$Scope - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@1605f2f] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@159e366] 
+2363 [main] DEBUG o.h.b.i.ClassLoaderAccessImpl - Not known whether passed class name [ru.stqa.pft.addressbook.model.ContactData] is safe 
+2363 [main] DEBUG o.h.b.i.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : ru.stqa.pft.addressbook.model.ContactData 
+2379 [main] DEBUG o.h.b.i.ClassLoaderAccessImpl - Not known whether passed class name [ru.stqa.pft.addressbook.model.ContactData] is safe 
+2379 [main] DEBUG o.h.b.i.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : ru.stqa.pft.addressbook.model.ContactData 
+2688 [main] DEBUG o.h.b.i.ClassLoaderAccessImpl - Not known whether passed class name [ru.stqa.pft.addressbook.model.GroupData] is safe 
+2688 [main] DEBUG o.h.b.i.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : ru.stqa.pft.addressbook.model.GroupData 
+2688 [main] DEBUG o.h.b.i.ClassLoaderAccessImpl - Not known whether passed class name [ru.stqa.pft.addressbook.model.GroupData] is safe 
+2688 [main] DEBUG o.h.b.i.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : ru.stqa.pft.addressbook.model.GroupData 
+2706 [main] DEBUG o.h.p.e.AbstractEntityPersister - Static SQL for entity: ru.stqa.pft.addressbook.model.ContactData 
+2706 [main] DEBUG o.h.p.e.AbstractEntityPersister -  Version select: select id from addressbook where id =? 
+2706 [main] DEBUG o.h.p.e.AbstractEntityPersister -  Snapshot select: select contactdat_.id, contactdat_.address as address2_0_, contactdat_.email as email3_0_, contactdat_.email2 as email4_0_, contactdat_.email3 as email5_0_, contactdat_.firstname as firstnam6_0_, contactdat_.home as home7_0_, contactdat_.lastname as lastname8_0_, contactdat_.mobile as mobile9_0_, contactdat_.work as work10_0_ from addressbook contactdat_ where contactdat_.id=? 
+2706 [main] DEBUG o.h.p.e.AbstractEntityPersister -  Insert 0: insert into addressbook (address, email, email2, email3, firstname, home, lastname, mobile, work, id) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?) 
+2706 [main] DEBUG o.h.p.e.AbstractEntityPersister -  Update 0: update addressbook set address=?, email=?, email2=?, email3=?, firstname=?, home=?, lastname=?, mobile=?, work=? where id=? 
+2706 [main] DEBUG o.h.p.e.AbstractEntityPersister -  Delete 0: delete from addressbook where id=? 
+2735 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4d2696] 
+2736 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : address 
+2737 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : email 
+2737 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : emailSecond 
+2737 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : emailThird 
+2737 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : firstname 
+2737 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : homePhone 
+2737 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : lastname 
+2737 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : mobile 
+2737 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : workPhone 
+2737 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan... 
+2752 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0> 
+2756 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(entity=ru.stqa.pft.addressbook.model.ContactData)
+    - Returns
+       - EntityReturnImpl(entity=ru.stqa.pft.addressbook.model.ContactData, querySpaceUid=<gen:0>, path=ru.stqa.pft.addressbook.model.ContactData)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=ru.stqa.pft.addressbook.model.ContactData)
+          - SQL table alias mapping - contactdat0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+ 
+2758 [main] DEBUG o.h.loader.entity.plan.EntityLoader - Static select for entity ru.stqa.pft.addressbook.model.ContactData [NONE]: select contactdat0_.id as id1_0_0_, contactdat0_.address as address2_0_0_, contactdat0_.email as email3_0_0_, contactdat0_.email2 as email4_0_0_, contactdat0_.email3 as email5_0_0_, contactdat0_.firstname as firstnam6_0_0_, contactdat0_.home as home7_0_0_, contactdat0_.lastname as lastname8_0_0_, contactdat0_.mobile as mobile9_0_0_, contactdat0_.work as work10_0_0_ from addressbook contactdat0_ where contactdat0_.id=? 
+2759 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@115644a] 
+2759 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : address 
+2759 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : email 
+2759 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : emailSecond 
+2759 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : emailThird 
+2759 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : firstname 
+2759 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : homePhone 
+2759 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : lastname 
+2759 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : mobile 
+2759 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : workPhone 
+2759 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan... 
+2759 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0> 
+2760 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(entity=ru.stqa.pft.addressbook.model.ContactData)
+    - Returns
+       - EntityReturnImpl(entity=ru.stqa.pft.addressbook.model.ContactData, querySpaceUid=<gen:0>, path=ru.stqa.pft.addressbook.model.ContactData)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=ru.stqa.pft.addressbook.model.ContactData)
+          - SQL table alias mapping - contactdat0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+ 
+2760 [main] DEBUG o.h.loader.entity.plan.EntityLoader - Static select for entity ru.stqa.pft.addressbook.model.ContactData [READ]: select contactdat0_.id as id1_0_0_, contactdat0_.address as address2_0_0_, contactdat0_.email as email3_0_0_, contactdat0_.email2 as email4_0_0_, contactdat0_.email3 as email5_0_0_, contactdat0_.firstname as firstnam6_0_0_, contactdat0_.home as home7_0_0_, contactdat0_.lastname as lastname8_0_0_, contactdat0_.mobile as mobile9_0_0_, contactdat0_.work as work10_0_0_ from addressbook contactdat0_ where contactdat0_.id=? 
+2780 [main] DEBUG org.hibernate.loader.Loader - Static select for action ACTION_MERGE on entity ru.stqa.pft.addressbook.model.ContactData: select contactdat0_.id as id1_0_0_, contactdat0_.address as address2_0_0_, contactdat0_.email as email3_0_0_, contactdat0_.email2 as email4_0_0_, contactdat0_.email3 as email5_0_0_, contactdat0_.firstname as firstnam6_0_0_, contactdat0_.home as home7_0_0_, contactdat0_.lastname as lastname8_0_0_, contactdat0_.mobile as mobile9_0_0_, contactdat0_.work as work10_0_0_ from addressbook contactdat0_ where contactdat0_.id=? 
+2780 [main] DEBUG org.hibernate.loader.Loader - Static select for action ACTION_REFRESH on entity ru.stqa.pft.addressbook.model.ContactData: select contactdat0_.id as id1_0_0_, contactdat0_.address as address2_0_0_, contactdat0_.email as email3_0_0_, contactdat0_.email2 as email4_0_0_, contactdat0_.email3 as email5_0_0_, contactdat0_.firstname as firstnam6_0_0_, contactdat0_.home as home7_0_0_, contactdat0_.lastname as lastname8_0_0_, contactdat0_.mobile as mobile9_0_0_, contactdat0_.work as work10_0_0_ from addressbook contactdat0_ where contactdat0_.id=? 
+2780 [main] DEBUG o.h.p.e.AbstractEntityPersister - Static SQL for entity: ru.stqa.pft.addressbook.model.GroupData 
+2780 [main] DEBUG o.h.p.e.AbstractEntityPersister -  Version select: select group_id from group_list where group_id =? 
+2780 [main] DEBUG o.h.p.e.AbstractEntityPersister -  Snapshot select: select groupdata_.group_id, groupdata_.group_footer as group_fo2_1_, groupdata_.group_header as group_he3_1_, groupdata_.group_name as group_na4_1_ from group_list groupdata_ where groupdata_.group_id=? 
+2781 [main] DEBUG o.h.p.e.AbstractEntityPersister -  Insert 0: insert into group_list (group_footer, group_header, group_name, group_id) values (?, ?, ?, ?) 
+2781 [main] DEBUG o.h.p.e.AbstractEntityPersister -  Update 0: update group_list set group_footer=?, group_header=?, group_name=? where group_id=? 
+2781 [main] DEBUG o.h.p.e.AbstractEntityPersister -  Delete 0: delete from group_list where group_id=? 
+2781 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1044cdf] 
+2781 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : footer 
+2781 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : header 
+2781 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : name 
+2781 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan... 
+2781 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0> 
+2782 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(entity=ru.stqa.pft.addressbook.model.GroupData)
+    - Returns
+       - EntityReturnImpl(entity=ru.stqa.pft.addressbook.model.GroupData, querySpaceUid=<gen:0>, path=ru.stqa.pft.addressbook.model.GroupData)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=ru.stqa.pft.addressbook.model.GroupData)
+          - SQL table alias mapping - groupdata0_
+          - alias suffix - 0_
+          - suffixed key columns - {group_id1_1_0_}
+ 
+2782 [main] DEBUG o.h.loader.entity.plan.EntityLoader - Static select for entity ru.stqa.pft.addressbook.model.GroupData [NONE]: select groupdata0_.group_id as group_id1_1_0_, groupdata0_.group_footer as group_fo2_1_0_, groupdata0_.group_header as group_he3_1_0_, groupdata0_.group_name as group_na4_1_0_ from group_list groupdata0_ where groupdata0_.group_id=? 
+2782 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@19843e5] 
+2782 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : footer 
+2782 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : header 
+2782 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : name 
+2782 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan... 
+2782 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0> 
+2782 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(entity=ru.stqa.pft.addressbook.model.GroupData)
+    - Returns
+       - EntityReturnImpl(entity=ru.stqa.pft.addressbook.model.GroupData, querySpaceUid=<gen:0>, path=ru.stqa.pft.addressbook.model.GroupData)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=ru.stqa.pft.addressbook.model.GroupData)
+          - SQL table alias mapping - groupdata0_
+          - alias suffix - 0_
+          - suffixed key columns - {group_id1_1_0_}
+ 
+2782 [main] DEBUG o.h.loader.entity.plan.EntityLoader - Static select for entity ru.stqa.pft.addressbook.model.GroupData [READ]: select groupdata0_.group_id as group_id1_1_0_, groupdata0_.group_footer as group_fo2_1_0_, groupdata0_.group_header as group_he3_1_0_, groupdata0_.group_name as group_na4_1_0_ from group_list groupdata0_ where groupdata0_.group_id=? 
+2783 [main] DEBUG org.hibernate.loader.Loader - Static select for action ACTION_MERGE on entity ru.stqa.pft.addressbook.model.GroupData: select groupdata0_.group_id as group_id1_1_0_, groupdata0_.group_footer as group_fo2_1_0_, groupdata0_.group_header as group_he3_1_0_, groupdata0_.group_name as group_na4_1_0_ from group_list groupdata0_ where groupdata0_.group_id=? 
+2783 [main] DEBUG org.hibernate.loader.Loader - Static select for action ACTION_REFRESH on entity ru.stqa.pft.addressbook.model.GroupData: select groupdata0_.group_id as group_id1_1_0_, groupdata0_.group_footer as group_fo2_1_0_, groupdata0_.group_header as group_he3_1_0_, groupdata0_.group_name as group_na4_1_0_ from group_list groupdata0_ where groupdata0_.group_id=? 
+2839 [main] INFO  o.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@b2651f] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode. 
+2905 [main] DEBUG o.h.e.t.j.p.i.JtaPlatformInitiator - No JtaPlatform was specified, checking resolver 
+2906 [main] DEBUG o.h.e.t.j.p.i.JtaPlatformResolverInitiator - No JtaPlatformResolver was specified, using default [org.hibernate.engine.transaction.jta.platform.internal.StandardJtaPlatformResolver] 
+2914 [main] DEBUG o.h.e.t.j.p.i.StandardJtaPlatformResolver - Could not resolve JtaPlatform, using default [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2914 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2915 [main] DEBUG o.h.query.spi.NamedQueryRepository - Checking 0 named HQL queries 
+2915 [main] DEBUG o.h.query.spi.NamedQueryRepository - Checking 0 named SQL queries 
+2917 [main] DEBUG o.h.internal.SessionFactoryRegistry - Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@1b08632 
+2919 [main] DEBUG o.h.internal.SessionFactoryRegistry - Registering SessionFactory: 1d98816f-1941-4e4a-8343-9e2ff747ab83 (<unnamed>) 
+2919 [main] DEBUG o.h.internal.SessionFactoryRegistry - Not binding SessionFactory to JNDI, no JNDI name configured 
+10209 [main] INFO  r.s.pft.addressbook.tests.TestBase - Start testtestContactCreation with parameters[ContactData{firstname='FirstName 0', lastname='Last 0', mobile='3456789 0', email='e@mail.com 0'}] 
+10318 [main] DEBUG o.h.s.internal.StatisticsInitiator - Statistics initialized [enabled=false] 
+10318 [main] DEBUG o.h.e.t.internal.TransactionImpl - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false 
+10318 [main] DEBUG o.h.e.t.internal.TransactionImpl - begin 
+10349 [main] DEBUG o.h.h.i.QueryTranslatorFactoryInitiator - QueryTranslatorFactory: org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory@113a118 
+10365 [main] DEBUG o.h.h.i.ast.QueryTranslatorImpl - parse() - HQL: from ru.stqa.pft.addressbook.model.ContactData where deprecated = '0000-00-00' 
+10381 [main] DEBUG o.h.hql.internal.ast.ErrorTracker - throwQueryException() : no errors 
+10381 [main] DEBUG o.h.h.i.ast.QueryTranslatorImpl - --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    +-[SELECT_FROM] Node: 'SELECT_FROM'
+    |  \-[FROM] Node: 'from'
+    |     \-[RANGE] Node: 'RANGE'
+    |        \-[DOT] Node: '.'
+    |           +-[DOT] Node: '.'
+    |           |  +-[DOT] Node: '.'
+    |           |  |  +-[DOT] Node: '.'
+    |           |  |  |  +-[DOT] Node: '.'
+    |           |  |  |  |  +-[IDENT] Node: 'ru'
+    |           |  |  |  |  \-[IDENT] Node: 'stqa'
+    |           |  |  |  \-[IDENT] Node: 'pft'
+    |           |  |  \-[IDENT] Node: 'addressbook'
+    |           |  \-[IDENT] Node: 'model'
+    |           \-[IDENT] Node: 'ContactData'
+    \-[WHERE] Node: 'where'
+       \-[EQ] Node: '='
+          +-[IDENT] Node: 'deprecated'
+          \-[QUOTED_STRING] Node: ''0000-00-00''
+ 
+10412 [main] DEBUG o.h.h.i.antlr.HqlSqlBaseWalker - select << begin [level=1, statement=select] 
+10428 [main] DEBUG o.h.h.internal.ast.tree.FromElement - FromClause{level=1} : ru.stqa.pft.addressbook.model.ContactData (<no alias>) -> contactdat0_ 
+10428 [main] DEBUG o.h.h.i.antlr.HqlSqlBaseWalker - select : finishing up [level=1, statement=select] 
+10428 [main] DEBUG o.h.hql.internal.ast.HqlSqlWalker - processQuery() :  ( SELECT ( FromClause{level=1} addressbook contactdat0_ ) ( where ( = deprecated '0000-00-00' ) ) ) 
+10443 [main] DEBUG o.h.hql.internal.ast.HqlSqlWalker - Derived SELECT clause created. 
+10443 [main] DEBUG o.h.h.i.ast.util.JoinProcessor - Using FROM fragment [addressbook contactdat0_] 
+10443 [main] DEBUG o.h.h.i.antlr.HqlSqlBaseWalker - select >> end [level=1, statement=select] 
+10443 [main] DEBUG o.h.h.i.ast.QueryTranslatorImpl - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (addressbook)
+    +-[SELECT_CLAUSE] SelectClause: '{derived select clause}'
+    |  +-[SELECT_EXPR] SelectExpressionImpl: 'contactdat0_.id as id1_0_' {FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=null,role=null,tableName=addressbook,tableAlias=contactdat0_,origin=null,columns={,className=ru.stqa.pft.addressbook.model.ContactData}}}
+    |  \-[SQL_TOKEN] SqlFragment: 'contactdat0_.address as address2_0_, contactdat0_.email as email3_0_, contactdat0_.email2 as email4_0_, contactdat0_.email3 as email5_0_, contactdat0_.firstname as firstnam6_0_, contactdat0_.home as home7_0_, contactdat0_.lastname as lastname8_0_, contactdat0_.mobile as mobile9_0_, contactdat0_.work as work10_0_'
+    +-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[], fromElementByTableAlias=[contactdat0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+    |  \-[FROM_FRAGMENT] FromElement: 'addressbook contactdat0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=null,role=null,tableName=addressbook,tableAlias=contactdat0_,origin=null,columns={,className=ru.stqa.pft.addressbook.model.ContactData}}
+    \-[WHERE] SqlNode: 'where'
+       \-[EQ] BinaryLogicOperatorNode: '='
+          +-[IDENT] IdentNode: 'deprecated' {originalText=deprecated}
+          \-[QUOTED_STRING] LiteralNode: ''0000-00-00''
+ 
+10443 [main] DEBUG o.h.hql.internal.ast.ErrorTracker - throwQueryException() : no errors 
+10459 [main] DEBUG o.h.h.i.ast.QueryTranslatorImpl - HQL: from ru.stqa.pft.addressbook.model.ContactData where deprecated = '0000-00-00' 
+10459 [main] DEBUG o.h.h.i.ast.QueryTranslatorImpl - SQL: select contactdat0_.id as id1_0_, contactdat0_.address as address2_0_, contactdat0_.email as email3_0_, contactdat0_.email2 as email4_0_, contactdat0_.email3 as email5_0_, contactdat0_.firstname as firstnam6_0_, contactdat0_.home as home7_0_, contactdat0_.lastname as lastname8_0_, contactdat0_.mobile as mobile9_0_, contactdat0_.work as work10_0_ from addressbook contactdat0_ where deprecated='0000-00-00' 
+10459 [main] DEBUG o.h.hql.internal.ast.ErrorTracker - throwQueryException() : no errors 
+10474 [main] DEBUG org.hibernate.SQL - select contactdat0_.id as id1_0_, contactdat0_.address as address2_0_, contactdat0_.email as email3_0_, contactdat0_.email2 as email4_0_, contactdat0_.email3 as email5_0_, contactdat0_.firstname as firstnam6_0_, contactdat0_.home as home7_0_, contactdat0_.lastname as lastname8_0_, contactdat0_.mobile as mobile9_0_, contactdat0_.work as work10_0_ from addressbook contactdat0_ where deprecated='0000-00-00' 
+10490 [main] DEBUG org.hibernate.loader.Loader - Result set row: 0 
+10490 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.ContactData#138] 
+10506 [main] DEBUG org.hibernate.loader.Loader - Result set row: 1 
+10506 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.ContactData#158] 
+10506 [main] DEBUG org.hibernate.loader.Loader - Result set row: 2 
+10506 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.ContactData#216] 
+10506 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.stqa.pft.addressbook.model.ContactData#138] 
+10506 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `address` : value =  
+10506 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`address`)  - enhanced for lazy-loading? - false 
+10506 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `email` : value = e@mail.com 0 
+10506 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`email`)  - enhanced for lazy-loading? - false 
+10506 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `emailSecond` : value =  
+10506 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`emailSecond`)  - enhanced for lazy-loading? - false 
+10506 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `emailThird` : value =  
+10506 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`emailThird`)  - enhanced for lazy-loading? - false 
+10506 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `firstname` : value = FirstName 0 
+10506 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`firstname`)  - enhanced for lazy-loading? - false 
+10506 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `homePhone` : value = 3456789 0 
+10506 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`homePhone`)  - enhanced for lazy-loading? - false 
+10506 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `lastname` : value = Last 0 
+10506 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`lastname`)  - enhanced for lazy-loading? - false 
+10506 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `mobile` : value = 3456789 0 
+10506 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`mobile`)  - enhanced for lazy-loading? - false 
+10506 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `workPhone` : value = 9999 
+10506 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`workPhone`)  - enhanced for lazy-loading? - false 
+10506 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.ContactData#138] 
+10506 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.stqa.pft.addressbook.model.ContactData#158] 
+10506 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `address` : value =  
+10506 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`address`)  - enhanced for lazy-loading? - false 
+10506 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `email` : value = e@mail.com 0 
+10506 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`email`)  - enhanced for lazy-loading? - false 
+10506 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `emailSecond` : value =  
+10506 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`emailSecond`)  - enhanced for lazy-loading? - false 
+10506 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `emailThird` : value =  
+10506 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`emailThird`)  - enhanced for lazy-loading? - false 
+10506 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `firstname` : value = FirstName 0 
+10506 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`firstname`)  - enhanced for lazy-loading? - false 
+10506 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `homePhone` : value = 3456789 0 
+10506 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`homePhone`)  - enhanced for lazy-loading? - false 
+10506 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `lastname` : value = Last 0 
+10506 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`lastname`)  - enhanced for lazy-loading? - false 
+10506 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `mobile` : value = 3456789 0 
+10506 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`mobile`)  - enhanced for lazy-loading? - false 
+10506 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `workPhone` : value = 9999 
+10506 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`workPhone`)  - enhanced for lazy-loading? - false 
+10506 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.ContactData#158] 
+10506 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.stqa.pft.addressbook.model.ContactData#216] 
+10506 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `address` : value =  
+10506 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`address`)  - enhanced for lazy-loading? - false 
+10506 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `email` : value = e@mail.com 0 
+10506 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`email`)  - enhanced for lazy-loading? - false 
+10506 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `emailSecond` : value =  
+10506 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`emailSecond`)  - enhanced for lazy-loading? - false 
+10506 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `emailThird` : value =  
+10506 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`emailThird`)  - enhanced for lazy-loading? - false 
+10506 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `firstname` : value = FirstName 0 
+10506 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`firstname`)  - enhanced for lazy-loading? - false 
+10506 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `homePhone` : value = 3456789 0 
+10506 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`homePhone`)  - enhanced for lazy-loading? - false 
+10506 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `lastname` : value = Last 0 
+10506 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`lastname`)  - enhanced for lazy-loading? - false 
+10506 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `mobile` : value = 3456789 0 
+10506 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`mobile`)  - enhanced for lazy-loading? - false 
+10506 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `workPhone` : value = 123456 0 
+10506 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`workPhone`)  - enhanced for lazy-loading? - false 
+10506 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.ContactData#216] 
+10506 [main] DEBUG o.h.e.t.internal.TransactionImpl - committing 
+10506 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades 
+10521 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections 
+10521 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 3 objects 
+10521 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections 
+10521 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities: 
+10521 [main] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.ContactData{emailThird=, firstname=FirstName 0, address=, homePhone=3456789 0, mobile=3456789 0, emailSecond=, workPhone=9999, id=138, email=e@mail.com 0, lastname=Last 0} 
+10521 [main] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.ContactData{emailThird=, firstname=FirstName 0, address=, homePhone=3456789 0, mobile=3456789 0, emailSecond=, workPhone=9999, id=158, email=e@mail.com 0, lastname=Last 0} 
+10521 [main] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.ContactData{emailThird=, firstname=FirstName 0, address=, homePhone=3456789 0, mobile=3456789 0, emailSecond=, workPhone=123456 0, id=216, email=e@mail.com 0, lastname=Last 0} 
+10521 [main] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction 
+10521 [main] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction 
+13076 [main] DEBUG o.h.e.t.internal.TransactionImpl - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false 
+13076 [main] DEBUG o.h.e.t.internal.TransactionImpl - begin 
+13076 [main] DEBUG org.hibernate.SQL - select contactdat0_.id as id1_0_, contactdat0_.address as address2_0_, contactdat0_.email as email3_0_, contactdat0_.email2 as email4_0_, contactdat0_.email3 as email5_0_, contactdat0_.firstname as firstnam6_0_, contactdat0_.home as home7_0_, contactdat0_.lastname as lastname8_0_, contactdat0_.mobile as mobile9_0_, contactdat0_.work as work10_0_ from addressbook contactdat0_ where deprecated='0000-00-00' 
+13091 [main] DEBUG org.hibernate.loader.Loader - Result set row: 0 
+13091 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.ContactData#138] 
+13091 [main] DEBUG org.hibernate.loader.Loader - Result set row: 1 
+13091 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.ContactData#158] 
+13091 [main] DEBUG org.hibernate.loader.Loader - Result set row: 2 
+13091 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.ContactData#216] 
+13091 [main] DEBUG org.hibernate.loader.Loader - Result set row: 3 
+13091 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.ContactData#222] 
+13091 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.stqa.pft.addressbook.model.ContactData#138] 
+13091 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `address` : value =  
+13091 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`address`)  - enhanced for lazy-loading? - false 
+13091 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `email` : value = e@mail.com 0 
+13091 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`email`)  - enhanced for lazy-loading? - false 
+13091 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `emailSecond` : value =  
+13091 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`emailSecond`)  - enhanced for lazy-loading? - false 
+13091 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `emailThird` : value =  
+13091 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`emailThird`)  - enhanced for lazy-loading? - false 
+13091 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `firstname` : value = FirstName 0 
+13091 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`firstname`)  - enhanced for lazy-loading? - false 
+13091 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `homePhone` : value = 3456789 0 
+13091 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`homePhone`)  - enhanced for lazy-loading? - false 
+13091 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `lastname` : value = Last 0 
+13091 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`lastname`)  - enhanced for lazy-loading? - false 
+13091 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `mobile` : value = 3456789 0 
+13091 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`mobile`)  - enhanced for lazy-loading? - false 
+13091 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `workPhone` : value = 9999 
+13091 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`workPhone`)  - enhanced for lazy-loading? - false 
+13091 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.ContactData#138] 
+13091 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.stqa.pft.addressbook.model.ContactData#158] 
+13091 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `address` : value =  
+13091 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`address`)  - enhanced for lazy-loading? - false 
+13091 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `email` : value = e@mail.com 0 
+13091 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`email`)  - enhanced for lazy-loading? - false 
+13091 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `emailSecond` : value =  
+13091 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`emailSecond`)  - enhanced for lazy-loading? - false 
+13091 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `emailThird` : value =  
+13091 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`emailThird`)  - enhanced for lazy-loading? - false 
+13091 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `firstname` : value = FirstName 0 
+13091 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`firstname`)  - enhanced for lazy-loading? - false 
+13091 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `homePhone` : value = 3456789 0 
+13091 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`homePhone`)  - enhanced for lazy-loading? - false 
+13091 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `lastname` : value = Last 0 
+13091 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`lastname`)  - enhanced for lazy-loading? - false 
+13091 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `mobile` : value = 3456789 0 
+13091 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`mobile`)  - enhanced for lazy-loading? - false 
+13091 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `workPhone` : value = 9999 
+13091 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`workPhone`)  - enhanced for lazy-loading? - false 
+13091 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.ContactData#158] 
+13091 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.stqa.pft.addressbook.model.ContactData#216] 
+13091 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `address` : value =  
+13091 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`address`)  - enhanced for lazy-loading? - false 
+13091 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `email` : value = e@mail.com 0 
+13091 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`email`)  - enhanced for lazy-loading? - false 
+13091 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `emailSecond` : value =  
+13091 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`emailSecond`)  - enhanced for lazy-loading? - false 
+13091 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `emailThird` : value =  
+13091 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`emailThird`)  - enhanced for lazy-loading? - false 
+13091 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `firstname` : value = FirstName 0 
+13091 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`firstname`)  - enhanced for lazy-loading? - false 
+13091 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `homePhone` : value = 3456789 0 
+13091 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`homePhone`)  - enhanced for lazy-loading? - false 
+13091 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `lastname` : value = Last 0 
+13091 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`lastname`)  - enhanced for lazy-loading? - false 
+13091 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `mobile` : value = 3456789 0 
+13091 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`mobile`)  - enhanced for lazy-loading? - false 
+13091 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `workPhone` : value = 123456 0 
+13091 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`workPhone`)  - enhanced for lazy-loading? - false 
+13091 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.ContactData#216] 
+13091 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.stqa.pft.addressbook.model.ContactData#222] 
+13091 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `address` : value =  
+13091 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`address`)  - enhanced for lazy-loading? - false 
+13091 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `email` : value = e@mail.com 0 
+13091 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`email`)  - enhanced for lazy-loading? - false 
+13091 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `emailSecond` : value =  
+13091 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`emailSecond`)  - enhanced for lazy-loading? - false 
+13091 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `emailThird` : value =  
+13091 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`emailThird`)  - enhanced for lazy-loading? - false 
+13091 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `firstname` : value = FirstName 0 
+13091 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`firstname`)  - enhanced for lazy-loading? - false 
+13091 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `homePhone` : value = 3456789 0 
+13091 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`homePhone`)  - enhanced for lazy-loading? - false 
+13091 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `lastname` : value = Last 0 
+13091 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`lastname`)  - enhanced for lazy-loading? - false 
+13091 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `mobile` : value = 3456789 0 
+13091 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`mobile`)  - enhanced for lazy-loading? - false 
+13091 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `workPhone` : value = 123456 0 
+13091 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`workPhone`)  - enhanced for lazy-loading? - false 
+13091 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.ContactData#222] 
+13091 [main] DEBUG o.h.e.t.internal.TransactionImpl - committing 
+13091 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades 
+13091 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections 
+13091 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 4 objects 
+13091 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections 
+13091 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities: 
+13091 [main] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.ContactData{emailThird=, firstname=FirstName 0, address=, homePhone=3456789 0, mobile=3456789 0, emailSecond=, workPhone=9999, id=138, email=e@mail.com 0, lastname=Last 0} 
+13091 [main] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.ContactData{emailThird=, firstname=FirstName 0, address=, homePhone=3456789 0, mobile=3456789 0, emailSecond=, workPhone=9999, id=158, email=e@mail.com 0, lastname=Last 0} 
+13091 [main] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.ContactData{emailThird=, firstname=FirstName 0, address=, homePhone=3456789 0, mobile=3456789 0, emailSecond=, workPhone=123456 0, id=222, email=e@mail.com 0, lastname=Last 0} 
+13091 [main] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.ContactData{emailThird=, firstname=FirstName 0, address=, homePhone=3456789 0, mobile=3456789 0, emailSecond=, workPhone=123456 0, id=216, email=e@mail.com 0, lastname=Last 0} 
+13091 [main] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction 
+13091 [main] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction 
+13107 [main] INFO  r.s.pft.addressbook.tests.TestBase - Stop testtestContactCreation 
+13107 [main] INFO  r.s.pft.addressbook.tests.TestBase - Start testtestContactCreation with parameters[ContactData{firstname='FirstName 1', lastname='Last 1', mobile='3456789 1', email='e@mail.com 1'}] 
+13123 [main] DEBUG o.h.e.t.internal.TransactionImpl - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false 
+13123 [main] DEBUG o.h.e.t.internal.TransactionImpl - begin 
+13123 [main] DEBUG org.hibernate.SQL - select contactdat0_.id as id1_0_, contactdat0_.address as address2_0_, contactdat0_.email as email3_0_, contactdat0_.email2 as email4_0_, contactdat0_.email3 as email5_0_, contactdat0_.firstname as firstnam6_0_, contactdat0_.home as home7_0_, contactdat0_.lastname as lastname8_0_, contactdat0_.mobile as mobile9_0_, contactdat0_.work as work10_0_ from addressbook contactdat0_ where deprecated='0000-00-00' 
+13123 [main] DEBUG org.hibernate.loader.Loader - Result set row: 0 
+13123 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.ContactData#138] 
+13123 [main] DEBUG org.hibernate.loader.Loader - Result set row: 1 
+13123 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.ContactData#158] 
+13123 [main] DEBUG org.hibernate.loader.Loader - Result set row: 2 
+13123 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.ContactData#216] 
+13123 [main] DEBUG org.hibernate.loader.Loader - Result set row: 3 
+13123 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.ContactData#222] 
+13123 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.stqa.pft.addressbook.model.ContactData#138] 
+13123 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `address` : value =  
+13123 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`address`)  - enhanced for lazy-loading? - false 
+13123 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `email` : value = e@mail.com 0 
+13123 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`email`)  - enhanced for lazy-loading? - false 
+13123 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `emailSecond` : value =  
+13123 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`emailSecond`)  - enhanced for lazy-loading? - false 
+13123 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `emailThird` : value =  
+13123 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`emailThird`)  - enhanced for lazy-loading? - false 
+13123 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `firstname` : value = FirstName 0 
+13123 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`firstname`)  - enhanced for lazy-loading? - false 
+13123 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `homePhone` : value = 3456789 0 
+13123 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`homePhone`)  - enhanced for lazy-loading? - false 
+13123 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `lastname` : value = Last 0 
+13123 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`lastname`)  - enhanced for lazy-loading? - false 
+13123 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `mobile` : value = 3456789 0 
+13123 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`mobile`)  - enhanced for lazy-loading? - false 
+13123 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `workPhone` : value = 9999 
+13123 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`workPhone`)  - enhanced for lazy-loading? - false 
+13123 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.ContactData#138] 
+13123 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.stqa.pft.addressbook.model.ContactData#158] 
+13123 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `address` : value =  
+13123 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`address`)  - enhanced for lazy-loading? - false 
+13123 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `email` : value = e@mail.com 0 
+13123 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`email`)  - enhanced for lazy-loading? - false 
+13123 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `emailSecond` : value =  
+13123 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`emailSecond`)  - enhanced for lazy-loading? - false 
+13123 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `emailThird` : value =  
+13123 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`emailThird`)  - enhanced for lazy-loading? - false 
+13123 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `firstname` : value = FirstName 0 
+13123 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`firstname`)  - enhanced for lazy-loading? - false 
+13123 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `homePhone` : value = 3456789 0 
+13123 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`homePhone`)  - enhanced for lazy-loading? - false 
+13123 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `lastname` : value = Last 0 
+13123 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`lastname`)  - enhanced for lazy-loading? - false 
+13123 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `mobile` : value = 3456789 0 
+13123 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`mobile`)  - enhanced for lazy-loading? - false 
+13123 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `workPhone` : value = 9999 
+13123 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`workPhone`)  - enhanced for lazy-loading? - false 
+13123 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.ContactData#158] 
+13123 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.stqa.pft.addressbook.model.ContactData#216] 
+13123 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `address` : value =  
+13123 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`address`)  - enhanced for lazy-loading? - false 
+13123 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `email` : value = e@mail.com 0 
+13123 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`email`)  - enhanced for lazy-loading? - false 
+13123 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `emailSecond` : value =  
+13123 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`emailSecond`)  - enhanced for lazy-loading? - false 
+13123 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `emailThird` : value =  
+13123 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`emailThird`)  - enhanced for lazy-loading? - false 
+13123 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `firstname` : value = FirstName 0 
+13123 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`firstname`)  - enhanced for lazy-loading? - false 
+13123 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `homePhone` : value = 3456789 0 
+13123 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`homePhone`)  - enhanced for lazy-loading? - false 
+13123 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `lastname` : value = Last 0 
+13123 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`lastname`)  - enhanced for lazy-loading? - false 
+13123 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `mobile` : value = 3456789 0 
+13123 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`mobile`)  - enhanced for lazy-loading? - false 
+13123 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `workPhone` : value = 123456 0 
+13123 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`workPhone`)  - enhanced for lazy-loading? - false 
+13123 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.ContactData#216] 
+13123 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.stqa.pft.addressbook.model.ContactData#222] 
+13123 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `address` : value =  
+13123 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`address`)  - enhanced for lazy-loading? - false 
+13123 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `email` : value = e@mail.com 0 
+13123 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`email`)  - enhanced for lazy-loading? - false 
+13123 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `emailSecond` : value =  
+13123 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`emailSecond`)  - enhanced for lazy-loading? - false 
+13123 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `emailThird` : value =  
+13123 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`emailThird`)  - enhanced for lazy-loading? - false 
+13123 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `firstname` : value = FirstName 0 
+13123 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`firstname`)  - enhanced for lazy-loading? - false 
+13123 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `homePhone` : value = 3456789 0 
+13123 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`homePhone`)  - enhanced for lazy-loading? - false 
+13123 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `lastname` : value = Last 0 
+13123 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`lastname`)  - enhanced for lazy-loading? - false 
+13123 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `mobile` : value = 3456789 0 
+13123 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`mobile`)  - enhanced for lazy-loading? - false 
+13123 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `workPhone` : value = 123456 0 
+13123 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`workPhone`)  - enhanced for lazy-loading? - false 
+13123 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.ContactData#222] 
+13123 [main] DEBUG o.h.e.t.internal.TransactionImpl - committing 
+13123 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades 
+13123 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections 
+13123 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 4 objects 
+13123 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections 
+13123 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities: 
+13123 [main] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.ContactData{emailThird=, firstname=FirstName 0, address=, homePhone=3456789 0, mobile=3456789 0, emailSecond=, workPhone=9999, id=138, email=e@mail.com 0, lastname=Last 0} 
+13123 [main] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.ContactData{emailThird=, firstname=FirstName 0, address=, homePhone=3456789 0, mobile=3456789 0, emailSecond=, workPhone=9999, id=158, email=e@mail.com 0, lastname=Last 0} 
+13123 [main] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.ContactData{emailThird=, firstname=FirstName 0, address=, homePhone=3456789 0, mobile=3456789 0, emailSecond=, workPhone=123456 0, id=222, email=e@mail.com 0, lastname=Last 0} 
+13123 [main] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.ContactData{emailThird=, firstname=FirstName 0, address=, homePhone=3456789 0, mobile=3456789 0, emailSecond=, workPhone=123456 0, id=216, email=e@mail.com 0, lastname=Last 0} 
+13123 [main] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction 
+13123 [main] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction 
+15510 [main] DEBUG o.h.e.t.internal.TransactionImpl - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false 
+15510 [main] DEBUG o.h.e.t.internal.TransactionImpl - begin 
+15511 [main] DEBUG org.hibernate.SQL - select contactdat0_.id as id1_0_, contactdat0_.address as address2_0_, contactdat0_.email as email3_0_, contactdat0_.email2 as email4_0_, contactdat0_.email3 as email5_0_, contactdat0_.firstname as firstnam6_0_, contactdat0_.home as home7_0_, contactdat0_.lastname as lastname8_0_, contactdat0_.mobile as mobile9_0_, contactdat0_.work as work10_0_ from addressbook contactdat0_ where deprecated='0000-00-00' 
+15513 [main] DEBUG org.hibernate.loader.Loader - Result set row: 0 
+15513 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.ContactData#138] 
+15513 [main] DEBUG org.hibernate.loader.Loader - Result set row: 1 
+15513 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.ContactData#158] 
+15514 [main] DEBUG org.hibernate.loader.Loader - Result set row: 2 
+15514 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.ContactData#216] 
+15514 [main] DEBUG org.hibernate.loader.Loader - Result set row: 3 
+15515 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.ContactData#222] 
+15515 [main] DEBUG org.hibernate.loader.Loader - Result set row: 4 
+15515 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.ContactData#223] 
+15515 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.stqa.pft.addressbook.model.ContactData#138] 
+15515 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `address` : value =  
+15515 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`address`)  - enhanced for lazy-loading? - false 
+15515 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `email` : value = e@mail.com 0 
+15515 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`email`)  - enhanced for lazy-loading? - false 
+15515 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `emailSecond` : value =  
+15515 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`emailSecond`)  - enhanced for lazy-loading? - false 
+15515 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `emailThird` : value =  
+15515 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`emailThird`)  - enhanced for lazy-loading? - false 
+15515 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `firstname` : value = FirstName 0 
+15516 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`firstname`)  - enhanced for lazy-loading? - false 
+15516 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `homePhone` : value = 3456789 0 
+15516 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`homePhone`)  - enhanced for lazy-loading? - false 
+15516 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `lastname` : value = Last 0 
+15516 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`lastname`)  - enhanced for lazy-loading? - false 
+15516 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `mobile` : value = 3456789 0 
+15516 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`mobile`)  - enhanced for lazy-loading? - false 
+15516 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `workPhone` : value = 9999 
+15516 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`workPhone`)  - enhanced for lazy-loading? - false 
+15516 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.ContactData#138] 
+15516 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.stqa.pft.addressbook.model.ContactData#158] 
+15516 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `address` : value =  
+15516 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`address`)  - enhanced for lazy-loading? - false 
+15517 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `email` : value = e@mail.com 0 
+15517 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`email`)  - enhanced for lazy-loading? - false 
+15517 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `emailSecond` : value =  
+15517 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`emailSecond`)  - enhanced for lazy-loading? - false 
+15517 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `emailThird` : value =  
+15517 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`emailThird`)  - enhanced for lazy-loading? - false 
+15517 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `firstname` : value = FirstName 0 
+15517 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`firstname`)  - enhanced for lazy-loading? - false 
+15517 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `homePhone` : value = 3456789 0 
+15517 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`homePhone`)  - enhanced for lazy-loading? - false 
+15518 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `lastname` : value = Last 0 
+15518 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`lastname`)  - enhanced for lazy-loading? - false 
+15518 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `mobile` : value = 3456789 0 
+15518 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`mobile`)  - enhanced for lazy-loading? - false 
+15518 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `workPhone` : value = 9999 
+15518 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`workPhone`)  - enhanced for lazy-loading? - false 
+15518 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.ContactData#158] 
+15518 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.stqa.pft.addressbook.model.ContactData#216] 
+15518 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `address` : value =  
+15519 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`address`)  - enhanced for lazy-loading? - false 
+15519 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `email` : value = e@mail.com 0 
+15519 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`email`)  - enhanced for lazy-loading? - false 
+15519 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `emailSecond` : value =  
+15519 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`emailSecond`)  - enhanced for lazy-loading? - false 
+15519 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `emailThird` : value =  
+15519 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`emailThird`)  - enhanced for lazy-loading? - false 
+15520 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `firstname` : value = FirstName 0 
+15520 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`firstname`)  - enhanced for lazy-loading? - false 
+15520 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `homePhone` : value = 3456789 0 
+15520 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`homePhone`)  - enhanced for lazy-loading? - false 
+15520 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `lastname` : value = Last 0 
+15520 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`lastname`)  - enhanced for lazy-loading? - false 
+15520 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `mobile` : value = 3456789 0 
+15520 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`mobile`)  - enhanced for lazy-loading? - false 
+15520 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `workPhone` : value = 123456 0 
+15521 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`workPhone`)  - enhanced for lazy-loading? - false 
+15521 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.ContactData#216] 
+15521 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.stqa.pft.addressbook.model.ContactData#222] 
+15521 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `address` : value =  
+15521 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`address`)  - enhanced for lazy-loading? - false 
+15521 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `email` : value = e@mail.com 0 
+15521 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`email`)  - enhanced for lazy-loading? - false 
+15521 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `emailSecond` : value =  
+15521 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`emailSecond`)  - enhanced for lazy-loading? - false 
+15521 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `emailThird` : value =  
+15522 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`emailThird`)  - enhanced for lazy-loading? - false 
+15522 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `firstname` : value = FirstName 0 
+15522 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`firstname`)  - enhanced for lazy-loading? - false 
+15522 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `homePhone` : value = 3456789 0 
+15522 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`homePhone`)  - enhanced for lazy-loading? - false 
+15522 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `lastname` : value = Last 0 
+15522 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`lastname`)  - enhanced for lazy-loading? - false 
+15522 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `mobile` : value = 3456789 0 
+15522 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`mobile`)  - enhanced for lazy-loading? - false 
+15522 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `workPhone` : value = 123456 0 
+15522 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`workPhone`)  - enhanced for lazy-loading? - false 
+15522 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.ContactData#222] 
+15522 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.stqa.pft.addressbook.model.ContactData#223] 
+15523 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `address` : value =  
+15523 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`address`)  - enhanced for lazy-loading? - false 
+15523 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `email` : value = e@mail.com 1 
+15523 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`email`)  - enhanced for lazy-loading? - false 
+15523 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `emailSecond` : value =  
+15523 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`emailSecond`)  - enhanced for lazy-loading? - false 
+15523 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `emailThird` : value =  
+15523 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`emailThird`)  - enhanced for lazy-loading? - false 
+15523 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `firstname` : value = FirstName 1 
+15523 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`firstname`)  - enhanced for lazy-loading? - false 
+15523 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `homePhone` : value = 3456789 1 
+15523 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`homePhone`)  - enhanced for lazy-loading? - false 
+15523 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `lastname` : value = Last 1 
+15523 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`lastname`)  - enhanced for lazy-loading? - false 
+15523 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `mobile` : value = 3456789 1 
+15523 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`mobile`)  - enhanced for lazy-loading? - false 
+15524 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `workPhone` : value = 123456 1 
+15524 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`workPhone`)  - enhanced for lazy-loading? - false 
+15524 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.ContactData#223] 
+15524 [main] DEBUG o.h.e.t.internal.TransactionImpl - committing 
+15524 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades 
+15524 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections 
+15525 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 5 objects 
+15525 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections 
+15525 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities: 
+15525 [main] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.ContactData{emailThird=, firstname=FirstName 0, address=, homePhone=3456789 0, mobile=3456789 0, emailSecond=, workPhone=9999, id=138, email=e@mail.com 0, lastname=Last 0} 
+15525 [main] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.ContactData{emailThird=, firstname=FirstName 0, address=, homePhone=3456789 0, mobile=3456789 0, emailSecond=, workPhone=9999, id=158, email=e@mail.com 0, lastname=Last 0} 
+15525 [main] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.ContactData{emailThird=, firstname=FirstName 0, address=, homePhone=3456789 0, mobile=3456789 0, emailSecond=, workPhone=123456 0, id=222, email=e@mail.com 0, lastname=Last 0} 
+15525 [main] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.ContactData{emailThird=, firstname=FirstName 0, address=, homePhone=3456789 0, mobile=3456789 0, emailSecond=, workPhone=123456 0, id=216, email=e@mail.com 0, lastname=Last 0} 
+15525 [main] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.ContactData{emailThird=, firstname=FirstName 1, address=, homePhone=3456789 1, mobile=3456789 1, emailSecond=, workPhone=123456 1, id=223, email=e@mail.com 1, lastname=Last 1} 
+15526 [main] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction 
+15526 [main] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction 
+15527 [main] INFO  r.s.pft.addressbook.tests.TestBase - Stop testtestContactCreation 
+15528 [main] INFO  r.s.pft.addressbook.tests.TestBase - Start testtestContactCreation with parameters[ContactData{firstname='FirstName 2', lastname='Last 2', mobile='3456789 2', email='e@mail.com 2'}] 
+15531 [main] DEBUG o.h.e.t.internal.TransactionImpl - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false 
+15531 [main] DEBUG o.h.e.t.internal.TransactionImpl - begin 
+15532 [main] DEBUG org.hibernate.SQL - select contactdat0_.id as id1_0_, contactdat0_.address as address2_0_, contactdat0_.email as email3_0_, contactdat0_.email2 as email4_0_, contactdat0_.email3 as email5_0_, contactdat0_.firstname as firstnam6_0_, contactdat0_.home as home7_0_, contactdat0_.lastname as lastname8_0_, contactdat0_.mobile as mobile9_0_, contactdat0_.work as work10_0_ from addressbook contactdat0_ where deprecated='0000-00-00' 
+15538 [main] DEBUG org.hibernate.loader.Loader - Result set row: 0 
+15538 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.ContactData#138] 
+15538 [main] DEBUG org.hibernate.loader.Loader - Result set row: 1 
+15539 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.ContactData#158] 
+15539 [main] DEBUG org.hibernate.loader.Loader - Result set row: 2 
+15539 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.ContactData#216] 
+15539 [main] DEBUG org.hibernate.loader.Loader - Result set row: 3 
+15539 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.ContactData#222] 
+15539 [main] DEBUG org.hibernate.loader.Loader - Result set row: 4 
+15539 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.ContactData#223] 
+15540 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.stqa.pft.addressbook.model.ContactData#138] 
+15540 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `address` : value =  
+15540 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`address`)  - enhanced for lazy-loading? - false 
+15540 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `email` : value = e@mail.com 0 
+15540 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`email`)  - enhanced for lazy-loading? - false 
+15540 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `emailSecond` : value =  
+15540 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`emailSecond`)  - enhanced for lazy-loading? - false 
+15540 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `emailThird` : value =  
+15540 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`emailThird`)  - enhanced for lazy-loading? - false 
+15540 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `firstname` : value = FirstName 0 
+15540 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`firstname`)  - enhanced for lazy-loading? - false 
+15540 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `homePhone` : value = 3456789 0 
+15540 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`homePhone`)  - enhanced for lazy-loading? - false 
+15541 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `lastname` : value = Last 0 
+15541 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`lastname`)  - enhanced for lazy-loading? - false 
+15541 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `mobile` : value = 3456789 0 
+15541 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`mobile`)  - enhanced for lazy-loading? - false 
+15541 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `workPhone` : value = 9999 
+15541 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`workPhone`)  - enhanced for lazy-loading? - false 
+15541 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.ContactData#138] 
+15541 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.stqa.pft.addressbook.model.ContactData#158] 
+15541 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `address` : value =  
+15541 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`address`)  - enhanced for lazy-loading? - false 
+15541 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `email` : value = e@mail.com 0 
+15541 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`email`)  - enhanced for lazy-loading? - false 
+15541 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `emailSecond` : value =  
+15541 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`emailSecond`)  - enhanced for lazy-loading? - false 
+15542 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `emailThird` : value =  
+15542 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`emailThird`)  - enhanced for lazy-loading? - false 
+15542 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `firstname` : value = FirstName 0 
+15542 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`firstname`)  - enhanced for lazy-loading? - false 
+15542 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `homePhone` : value = 3456789 0 
+15542 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`homePhone`)  - enhanced for lazy-loading? - false 
+15542 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `lastname` : value = Last 0 
+15542 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`lastname`)  - enhanced for lazy-loading? - false 
+15542 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `mobile` : value = 3456789 0 
+15542 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`mobile`)  - enhanced for lazy-loading? - false 
+15542 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `workPhone` : value = 9999 
+15542 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`workPhone`)  - enhanced for lazy-loading? - false 
+15542 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.ContactData#158] 
+15542 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.stqa.pft.addressbook.model.ContactData#216] 
+15543 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `address` : value =  
+15543 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`address`)  - enhanced for lazy-loading? - false 
+15543 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `email` : value = e@mail.com 0 
+15543 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`email`)  - enhanced for lazy-loading? - false 
+15543 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `emailSecond` : value =  
+15543 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`emailSecond`)  - enhanced for lazy-loading? - false 
+15543 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `emailThird` : value =  
+15543 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`emailThird`)  - enhanced for lazy-loading? - false 
+15543 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `firstname` : value = FirstName 0 
+15543 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`firstname`)  - enhanced for lazy-loading? - false 
+15543 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `homePhone` : value = 3456789 0 
+15543 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`homePhone`)  - enhanced for lazy-loading? - false 
+15543 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `lastname` : value = Last 0 
+15543 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`lastname`)  - enhanced for lazy-loading? - false 
+15543 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `mobile` : value = 3456789 0 
+15544 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`mobile`)  - enhanced for lazy-loading? - false 
+15544 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `workPhone` : value = 123456 0 
+15544 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`workPhone`)  - enhanced for lazy-loading? - false 
+15544 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.ContactData#216] 
+15544 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.stqa.pft.addressbook.model.ContactData#222] 
+15544 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `address` : value =  
+15544 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`address`)  - enhanced for lazy-loading? - false 
+15544 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `email` : value = e@mail.com 0 
+15544 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`email`)  - enhanced for lazy-loading? - false 
+15544 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `emailSecond` : value =  
+15544 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`emailSecond`)  - enhanced for lazy-loading? - false 
+15544 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `emailThird` : value =  
+15544 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`emailThird`)  - enhanced for lazy-loading? - false 
+15544 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `firstname` : value = FirstName 0 
+15545 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`firstname`)  - enhanced for lazy-loading? - false 
+15545 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `homePhone` : value = 3456789 0 
+15545 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`homePhone`)  - enhanced for lazy-loading? - false 
+15545 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `lastname` : value = Last 0 
+15545 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`lastname`)  - enhanced for lazy-loading? - false 
+15545 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `mobile` : value = 3456789 0 
+15545 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`mobile`)  - enhanced for lazy-loading? - false 
+15545 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `workPhone` : value = 123456 0 
+15545 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`workPhone`)  - enhanced for lazy-loading? - false 
+15545 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.ContactData#222] 
+15545 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.stqa.pft.addressbook.model.ContactData#223] 
+15545 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `address` : value =  
+15545 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`address`)  - enhanced for lazy-loading? - false 
+15545 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `email` : value = e@mail.com 1 
+15545 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`email`)  - enhanced for lazy-loading? - false 
+15546 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `emailSecond` : value =  
+15546 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`emailSecond`)  - enhanced for lazy-loading? - false 
+15546 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `emailThird` : value =  
+15546 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`emailThird`)  - enhanced for lazy-loading? - false 
+15546 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `firstname` : value = FirstName 1 
+15546 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`firstname`)  - enhanced for lazy-loading? - false 
+15546 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `homePhone` : value = 3456789 1 
+15546 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`homePhone`)  - enhanced for lazy-loading? - false 
+15546 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `lastname` : value = Last 1 
+15546 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`lastname`)  - enhanced for lazy-loading? - false 
+15546 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `mobile` : value = 3456789 1 
+15546 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`mobile`)  - enhanced for lazy-loading? - false 
+15546 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `workPhone` : value = 123456 1 
+15547 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`workPhone`)  - enhanced for lazy-loading? - false 
+15547 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.ContactData#223] 
+15547 [main] DEBUG o.h.e.t.internal.TransactionImpl - committing 
+15547 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades 
+15547 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections 
+15547 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 5 objects 
+15547 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections 
+15547 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities: 
+15547 [main] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.ContactData{emailThird=, firstname=FirstName 0, address=, homePhone=3456789 0, mobile=3456789 0, emailSecond=, workPhone=9999, id=138, email=e@mail.com 0, lastname=Last 0} 
+15547 [main] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.ContactData{emailThird=, firstname=FirstName 0, address=, homePhone=3456789 0, mobile=3456789 0, emailSecond=, workPhone=9999, id=158, email=e@mail.com 0, lastname=Last 0} 
+15548 [main] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.ContactData{emailThird=, firstname=FirstName 0, address=, homePhone=3456789 0, mobile=3456789 0, emailSecond=, workPhone=123456 0, id=222, email=e@mail.com 0, lastname=Last 0} 
+15548 [main] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.ContactData{emailThird=, firstname=FirstName 0, address=, homePhone=3456789 0, mobile=3456789 0, emailSecond=, workPhone=123456 0, id=216, email=e@mail.com 0, lastname=Last 0} 
+15548 [main] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.ContactData{emailThird=, firstname=FirstName 1, address=, homePhone=3456789 1, mobile=3456789 1, emailSecond=, workPhone=123456 1, id=223, email=e@mail.com 1, lastname=Last 1} 
+15548 [main] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction 
+15548 [main] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction 
+17880 [main] DEBUG o.h.e.t.internal.TransactionImpl - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false 
+17880 [main] DEBUG o.h.e.t.internal.TransactionImpl - begin 
+17880 [main] DEBUG org.hibernate.SQL - select contactdat0_.id as id1_0_, contactdat0_.address as address2_0_, contactdat0_.email as email3_0_, contactdat0_.email2 as email4_0_, contactdat0_.email3 as email5_0_, contactdat0_.firstname as firstnam6_0_, contactdat0_.home as home7_0_, contactdat0_.lastname as lastname8_0_, contactdat0_.mobile as mobile9_0_, contactdat0_.work as work10_0_ from addressbook contactdat0_ where deprecated='0000-00-00' 
+17896 [main] DEBUG org.hibernate.loader.Loader - Result set row: 0 
+17896 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.ContactData#138] 
+17896 [main] DEBUG org.hibernate.loader.Loader - Result set row: 1 
+17896 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.ContactData#158] 
+17896 [main] DEBUG org.hibernate.loader.Loader - Result set row: 2 
+17896 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.ContactData#216] 
+17896 [main] DEBUG org.hibernate.loader.Loader - Result set row: 3 
+17896 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.ContactData#222] 
+17896 [main] DEBUG org.hibernate.loader.Loader - Result set row: 4 
+17896 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.ContactData#223] 
+17896 [main] DEBUG org.hibernate.loader.Loader - Result set row: 5 
+17896 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[ru.stqa.pft.addressbook.model.ContactData#224] 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.stqa.pft.addressbook.model.ContactData#138] 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `address` : value =  
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`address`)  - enhanced for lazy-loading? - false 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `email` : value = e@mail.com 0 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`email`)  - enhanced for lazy-loading? - false 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `emailSecond` : value =  
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`emailSecond`)  - enhanced for lazy-loading? - false 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `emailThird` : value =  
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`emailThird`)  - enhanced for lazy-loading? - false 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `firstname` : value = FirstName 0 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`firstname`)  - enhanced for lazy-loading? - false 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `homePhone` : value = 3456789 0 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`homePhone`)  - enhanced for lazy-loading? - false 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `lastname` : value = Last 0 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`lastname`)  - enhanced for lazy-loading? - false 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `mobile` : value = 3456789 0 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`mobile`)  - enhanced for lazy-loading? - false 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `workPhone` : value = 9999 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`workPhone`)  - enhanced for lazy-loading? - false 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.ContactData#138] 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.stqa.pft.addressbook.model.ContactData#158] 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `address` : value =  
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`address`)  - enhanced for lazy-loading? - false 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `email` : value = e@mail.com 0 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`email`)  - enhanced for lazy-loading? - false 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `emailSecond` : value =  
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`emailSecond`)  - enhanced for lazy-loading? - false 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `emailThird` : value =  
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`emailThird`)  - enhanced for lazy-loading? - false 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `firstname` : value = FirstName 0 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`firstname`)  - enhanced for lazy-loading? - false 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `homePhone` : value = 3456789 0 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`homePhone`)  - enhanced for lazy-loading? - false 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `lastname` : value = Last 0 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`lastname`)  - enhanced for lazy-loading? - false 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `mobile` : value = 3456789 0 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`mobile`)  - enhanced for lazy-loading? - false 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `workPhone` : value = 9999 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`workPhone`)  - enhanced for lazy-loading? - false 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.ContactData#158] 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.stqa.pft.addressbook.model.ContactData#216] 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `address` : value =  
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`address`)  - enhanced for lazy-loading? - false 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `email` : value = e@mail.com 0 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`email`)  - enhanced for lazy-loading? - false 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `emailSecond` : value =  
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`emailSecond`)  - enhanced for lazy-loading? - false 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `emailThird` : value =  
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`emailThird`)  - enhanced for lazy-loading? - false 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `firstname` : value = FirstName 0 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`firstname`)  - enhanced for lazy-loading? - false 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `homePhone` : value = 3456789 0 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`homePhone`)  - enhanced for lazy-loading? - false 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `lastname` : value = Last 0 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`lastname`)  - enhanced for lazy-loading? - false 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `mobile` : value = 3456789 0 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`mobile`)  - enhanced for lazy-loading? - false 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `workPhone` : value = 123456 0 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`workPhone`)  - enhanced for lazy-loading? - false 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.ContactData#216] 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.stqa.pft.addressbook.model.ContactData#222] 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `address` : value =  
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`address`)  - enhanced for lazy-loading? - false 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `email` : value = e@mail.com 0 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`email`)  - enhanced for lazy-loading? - false 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `emailSecond` : value =  
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`emailSecond`)  - enhanced for lazy-loading? - false 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `emailThird` : value =  
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`emailThird`)  - enhanced for lazy-loading? - false 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `firstname` : value = FirstName 0 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`firstname`)  - enhanced for lazy-loading? - false 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `homePhone` : value = 3456789 0 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`homePhone`)  - enhanced for lazy-loading? - false 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `lastname` : value = Last 0 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`lastname`)  - enhanced for lazy-loading? - false 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `mobile` : value = 3456789 0 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`mobile`)  - enhanced for lazy-loading? - false 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `workPhone` : value = 123456 0 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`workPhone`)  - enhanced for lazy-loading? - false 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.ContactData#222] 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.stqa.pft.addressbook.model.ContactData#223] 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `address` : value =  
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`address`)  - enhanced for lazy-loading? - false 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `email` : value = e@mail.com 1 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`email`)  - enhanced for lazy-loading? - false 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `emailSecond` : value =  
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`emailSecond`)  - enhanced for lazy-loading? - false 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `emailThird` : value =  
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`emailThird`)  - enhanced for lazy-loading? - false 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `firstname` : value = FirstName 1 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`firstname`)  - enhanced for lazy-loading? - false 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `homePhone` : value = 3456789 1 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`homePhone`)  - enhanced for lazy-loading? - false 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `lastname` : value = Last 1 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`lastname`)  - enhanced for lazy-loading? - false 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `mobile` : value = 3456789 1 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`mobile`)  - enhanced for lazy-loading? - false 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `workPhone` : value = 123456 1 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`workPhone`)  - enhanced for lazy-loading? - false 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.ContactData#223] 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [ru.stqa.pft.addressbook.model.ContactData#224] 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `address` : value =  
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`address`)  - enhanced for lazy-loading? - false 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `email` : value = e@mail.com 2 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`email`)  - enhanced for lazy-loading? - false 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `emailSecond` : value =  
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`emailSecond`)  - enhanced for lazy-loading? - false 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `emailThird` : value =  
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`emailThird`)  - enhanced for lazy-loading? - false 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `firstname` : value = FirstName 2 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`firstname`)  - enhanced for lazy-loading? - false 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `homePhone` : value = 3456789 2 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`homePhone`)  - enhanced for lazy-loading? - false 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `lastname` : value = Last 2 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`lastname`)  - enhanced for lazy-loading? - false 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `mobile` : value = 3456789 2 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`mobile`)  - enhanced for lazy-loading? - false 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `workPhone` : value = 123456 2 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`workPhone`)  - enhanced for lazy-loading? - false 
+17896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [ru.stqa.pft.addressbook.model.ContactData#224] 
+17896 [main] DEBUG o.h.e.t.internal.TransactionImpl - committing 
+17896 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades 
+17896 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections 
+17896 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 6 objects 
+17896 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections 
+17896 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities: 
+17896 [main] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.ContactData{emailThird=, firstname=FirstName 0, address=, homePhone=3456789 0, mobile=3456789 0, emailSecond=, workPhone=9999, id=138, email=e@mail.com 0, lastname=Last 0} 
+17896 [main] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.ContactData{emailThird=, firstname=FirstName 0, address=, homePhone=3456789 0, mobile=3456789 0, emailSecond=, workPhone=9999, id=158, email=e@mail.com 0, lastname=Last 0} 
+17896 [main] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.ContactData{emailThird=, firstname=FirstName 0, address=, homePhone=3456789 0, mobile=3456789 0, emailSecond=, workPhone=123456 0, id=222, email=e@mail.com 0, lastname=Last 0} 
+17896 [main] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.ContactData{emailThird=, firstname=FirstName 0, address=, homePhone=3456789 0, mobile=3456789 0, emailSecond=, workPhone=123456 0, id=216, email=e@mail.com 0, lastname=Last 0} 
+17896 [main] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.ContactData{emailThird=, firstname=FirstName 2, address=, homePhone=3456789 2, mobile=3456789 2, emailSecond=, workPhone=123456 2, id=224, email=e@mail.com 2, lastname=Last 2} 
+17896 [main] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.ContactData{emailThird=, firstname=FirstName 1, address=, homePhone=3456789 1, mobile=3456789 1, emailSecond=, workPhone=123456 1, id=223, email=e@mail.com 1, lastname=Last 1} 
+17896 [main] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction 
+17896 [main] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction 
+17896 [main] INFO  r.s.pft.addressbook.tests.TestBase - Stop testtestContactCreation 

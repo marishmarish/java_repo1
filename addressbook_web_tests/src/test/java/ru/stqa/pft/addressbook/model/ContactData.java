@@ -1,33 +1,67 @@
 package ru.stqa.pft.addressbook.model;
 
 import com.google.gson.annotations.Expose;
-
+import org.hibernate.annotations.Type;
+import javax.persistence.*;
 import java.util.Objects;
 
+@Entity
+@Table(name ="addressbook")
 public class ContactData {
+
+    @Id
+    @Column(name = "id")
     private int id = Integer.MAX_VALUE;
+
     @Expose
+    @Column(name = "firstname")
     private  String firstname;
+
     @Expose
+    @Column(name = "lastname")
     private  String lastname;
+
     @Expose
+    @Column(name = "mobile")
+    @Type(type = "text")
     private  String mobile;
+
     @Expose
+    @Column(name = "email")
+    @Type(type = "text")
     private  String email;
+
     @Expose
+    @Transient
     private  String emailSecond;
+
     @Expose
+    @Transient
     private  String emailThird;
+
     @Expose
+    @Column(name = "home")
+    @Type(type = "text")
     private  String homePhone;
+
     @Expose
+    @Column(name = "work")
+    @Type(type = "text")
     private  String workPhone;
+
     @Expose
-    private  String allPhones;
-    @Expose
+    @Column(name = "address")
+    @Type(type = "text")
     private  String address;
+
     @Expose
+    @Transient
+    private  String allPhones;
+
+    @Expose
+    @Transient
     private  String allEmails;
+
 
     public String getFirstname() {
         return firstname;
@@ -102,21 +136,6 @@ public class ContactData {
         return this;
     }
 
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        ContactData that = (ContactData) o;
-        return id == that.id &&
-                Objects.equals(firstname, that.firstname) &&
-                Objects.equals(lastname, that.lastname);
-    }
-
-    @Override
-    public int hashCode() {
-        return Objects.hash(id, firstname, lastname);
-    }
-
     public String getAllPhones() {
         return allPhones;
     }
@@ -160,5 +179,27 @@ public class ContactData {
     public ContactData withAllEmails(String allEmails) {
         this.allEmails = allEmails;
         return this;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        ContactData that = (ContactData) o;
+        return id == that.id &&
+                Objects.equals(firstname, that.firstname) &&
+                Objects.equals(lastname, that.lastname) &&
+                Objects.equals(mobile, that.mobile) &&
+                Objects.equals(email, that.email) &&
+                Objects.equals(emailSecond, that.emailSecond) &&
+                Objects.equals(emailThird, that.emailThird) &&
+                Objects.equals(homePhone, that.homePhone) &&
+                Objects.equals(workPhone, that.workPhone) &&
+                Objects.equals(address, that.address);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, firstname, lastname, mobile, email, emailSecond, emailThird, homePhone, workPhone, address, allPhones, allEmails);
     }
 }
