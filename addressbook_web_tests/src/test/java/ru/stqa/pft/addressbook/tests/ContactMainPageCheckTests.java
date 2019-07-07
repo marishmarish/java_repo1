@@ -23,7 +23,7 @@ public class ContactMainPageCheckTests extends TestBase {
 
 
     private String mergePhones(ContactData contact) {
-        return Stream.of(contact.getHomePhone(),contact.getMobile(), contact.getWorkPhone())
+        return Stream.of(contact.getHomePhone(), contact.getMobile(), contact.getWorkPhone())
                 .filter(phone -> !phone.equals(""))
                 .map(ContactMainPageCheckTests::cleaned)
                 .collect(Collectors.joining("\n"));
@@ -31,13 +31,14 @@ public class ContactMainPageCheckTests extends TestBase {
     }
 
     private String mergeEmails(ContactData contact) {
-        return Stream.of(contact.getEmail(),contact.getEmailSecond(), contact.getEmailThird())
+        return Stream.of(contact.getEmail(), contact.getEmailSecond(), contact.getEmailThird())
                 .filter(Objects::nonNull)
                 .filter(email -> !email.equals(""))
                 .collect(Collectors.joining("\n"));
 
     }
+
     public static String cleaned(String phone) {
-        return phone.replaceAll("\\s","").replaceAll("[-()]","");
+        return phone.replaceAll("\\s", "").replaceAll("[-()]", "");
     }
 }

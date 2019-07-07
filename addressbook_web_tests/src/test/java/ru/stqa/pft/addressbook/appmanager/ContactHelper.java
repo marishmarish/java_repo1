@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import ru.stqa.pft.addressbook.model.ContactData;
 import ru.stqa.pft.addressbook.model.Contacts;
+import ru.stqa.pft.addressbook.model.GroupData;
 
 import java.util.List;
 
@@ -119,11 +120,12 @@ public class ContactHelper extends BaseHelper {
         return new Contacts(contactCash);
     }
 
+    public void addToGroup() {
+        wd.findElement(By.name("add")).click();
+    }
 
-    public void selectContact(int index) {
-        wd.findElements(By.name("selected[]"))
-                .get(index)
-                .click();
+    public void deleteFromTheGroup() {
+        wd.findElement(By.name("remove")).click();
     }
 
 
@@ -153,5 +155,24 @@ public class ContactHelper extends BaseHelper {
         List<WebElement> cells = row.findElements(By.tagName("td"));
         cells.get(7).findElement(By.tagName("a")).click();
 
+    }
+
+    public void addContactToGroup(ContactData selectedContact, GroupData groupData) {
+        selectContactById(selectedContact.getId());
+        selectGroupToAddById(groupData.getId());
+        addToGroup();
+    }
+
+    private void selectGroupToAddById(int id) {
+        click(By.xpath("//select[@name='to_group']/option[@value='"+ id +"']"));
+    }
+
+    public void displayContactsForGroupById(int id) {
+        click(By.xpath("//select[@name='group']/option[@value='"+ id +"']"));
+    }
+
+    public void removeContactFromGroup(ContactData selectedContact) {
+        selectContactById(selectedContact.getId());
+        deleteFromTheGroup();
     }
 }
