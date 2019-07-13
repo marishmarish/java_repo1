@@ -1,6 +1,6 @@
-package ru.stqa.pft.mantis;
+package ru.stqa.pft.mantis.tests;
 
-import appmanager.ApplicationManager;
+import ru.stqa.pft.mantis.appmanager.ApplicationManager;
 import org.openqa.selenium.remote.BrowserType;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
