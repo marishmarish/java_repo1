@@ -33,8 +33,18 @@ public class TestBase {
         return !"closed".equals(app.soap().getIssueStatus(issueId));
     }
 
+    private boolean isIssueOpenForRest(int issueId) throws IOException {
+        return !"Closed".equals(app.rest().getIssueStatus(issueId));
+    }
+
     public void skipIfNotFixed(int issueId) throws RemoteException, ServiceException, MalformedURLException {
         if (isIssueOpen(issueId)) {
+            throw new SkipException("Ignored because of issue " + issueId);
+        }
+    }
+
+    public void skipIfNotFixedRest(int issueId) throws IOException {
+        if (isIssueOpenForRest(issueId)) {
             throw new SkipException("Ignored because of issue " + issueId);
         }
     }
