@@ -3,10 +3,8 @@ package ru.stqa.pft.mantis.appmanager;
 import biz.futureware.mantis.rpc.soap.client.*;
 import ru.stqa.pft.mantis.model.Issue;
 import ru.stqa.pft.mantis.model.Project;
-import sun.awt.geom.AreaOp;
 
 import javax.xml.rpc.ServiceException;
-import java.lang.reflect.Array;
 import java.math.BigInteger;
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -50,5 +48,12 @@ public class SoapHelper {
                 .withDescription(createdIssueData.getDescription())
                 .withProject(new Project().withId(createdIssueData.getProject().getId().intValue())
                         .withName(createdIssueData.getProject().getName()));
+    }
+
+    public String getIssueStatus(int issueId) throws MalformedURLException, ServiceException, RemoteException {
+        MantisConnectPortType mc = getMantisConnect();
+        IssueData issueData = mc.mc_issue_get("administrator", "admin", BigInteger.valueOf(issueId));
+        ObjectRef status = issueData.getStatus();
+        return status.getName();
     }
 }
